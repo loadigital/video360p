@@ -197,10 +197,10 @@ function pintar(data){
     let v_id = url_vlr.get('v_id');
     let server = url_vlr.get('server');
 
-    let externo = element.externo;
-    console.log(externo)
+    //let externo = element.externo;
+    //console.log(externo)
 
-    if (externo != "0" && externo != "" ) {
+    if (element.externo != "0" && element.externo != "" ) {
         document.getElementById("ver").src = element.externo;
         document.getElementById("descarga").href = "http://localhost/B!LOA%20APP%200.5/page/descarga.php?id=" +  element.video + '&t=' + element.title;
     }else if (cal === "null" || cal === "nulls") {
