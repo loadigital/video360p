@@ -1,37 +1,157 @@
 [
     {
-        "id":"S010",
-        "temporadas":"2",
-        "temporada1":[
-                    "1zzmhsR5_NkpNRnzeS4d-dWCwwG0lRETd&temp=1&cap=1&direct=3&id_db=S010",
-                    "1-56dkCkORjoyOAQn5dw251xmbXf88KaO&temp=1&cap=2&direct=3&id_db=S010",
-                    "1hs1rfNji97rW0ypcL_JzEm8uMiRw-gOm&temp=1&cap=3&direct=3&id_db=S010",
-                    "1HxJrVIH0WjTUdnYbbAykh3ZXLh_qVaue&temp=1&cap=4&direct=3&id_db=S010",
-                    "1ULyxmsUq61NczgTPXKhYvU52QLSmkRat&temp=1&cap=5&direct=3&id_db=S010",
-                    "1V3ygp8IhPEENgOOoih8IAr1CZbfHRuFm&temp=1&cap=6&direct=3&id_db=S010"
-                    ],
-        "temporada2":[
-                        "7129228708406&temp=1&cap=1",
-                        "7129271110198&temp=1&cap=2",
-                        "7129453562422&temp=1&cap=3",
-                        "7131400047158&temp=1&cap=4",
-                        "7131504708150&temp=1&cap=5",
-                        "7131888290358&temp=1&cap=6",
-                        "7347794086454&temp=1&cap=7"
-                    ]          
-               
-        },
-        {
-            "id":"S011",
-            "temporadas":"1",
-            "temporada1":[
-                            "7129228708406&temp=1&cap=1",
-                            "7129271110198&temp=1&cap=2",
-                            "7129453562422&temp=1&cap=3",
-                            "7131400047158&temp=1&cap=4",
-                            "7131504708150&temp=1&cap=5"
-                            
-                        ]
-                   
-            }
+    "id": "S052",
+    "temporadas":"1",
+    "temporada1":[
+                    "1zzmhsR5_NkpNRnzeS4d-dWCwwG0lRETd&temp=1&cap=1&direct=3",
+                    "1-56dkCkORjoyOAQn5dw251xmbXf88KaO&temp=1&cap=2&direct=3",
+                    "1hs1rfNji97rW0ypcL_JzEm8uMiRw-gOm&temp=1&cap=3&direct=3",
+                    "1HxJrVIH0WjTUdnYbbAykh3ZXLh_qVaue&temp=1&cap=4&direct=3",
+                    "1ULyxmsUq61NczgTPXKhYvU52QLSmkRat&temp=1&cap=5&direct=3",
+                    "1V3ygp8IhPEENgOOoih8IAr1CZbfHRuFm&temp=1&cap=6&direct=3"
+                                                            
+                 ]
+                     
+},
+{
+    "id": "S051",
+    "temporadas":"1",
+    "temporada1":[
+                    "1DW8LzAwnHVTFk3In-Tg4Ivi_Yr4TNfME&temp=1&cap=1&direct=3",
+                    "1kDKTDAZEwP5OuP8jaQe4VqT9fur6EfMK&temp=1&cap=2&direct=3",
+                    "1Il0y6t6Swr3okRa_pkruY34LqRBrPnJP&temp=1&cap=3&direct=3",
+                    "1f4KdqAxz_Z2TDQr0a80t3pBuL1Tg5den&temp=1&cap=4&direct=3",
+                    "1rFUVuoJrxuhyQXTbMi7EqouRjep9JDmD&temp=1&cap=5&direct=3",
+                    "14Xkx0xRZF0j8P-57ipZXcWwZTm2BDJS9&temp=1&cap=6&direct=3",
+                    "1GaumGe1ZAZ4TFc597h9aW6Rn9Ke2B7nQ&temp=1&cap=7&direct=3",
+                    "18mZQWpsxIsLxsgZ9aRzi5H2z-3Molc7v&temp=1&cap=8&direct=3"
+                                        
+                 ]
+                     
+},
+{
+    "id": "S050",
+    "temporadas":"1",
+    "temporada1":[
+                    "1BW_VrMSbJjseLQESr-K3dfzW6qXT_slY&temp=1&cap=1&direct=3",
+                    "1lnXo8nxIwm-ixy2caeNqD1knwL9VKrb5&temp=1&cap=2&direct=3",
+                    "1qIbkTBfeaopzWltm9yRNZHE1ipDzhrFw&temp=1&cap=3&direct=3",
+                    "1WrfBKdHwuvLUMD08Qa2wUM8nfbo0ngp0&temp=1&cap=4&direct=3",
+                    "13Ip6T_XkfmXZxqY2A_7PUC3Bi_MUzP1s&temp=1&cap=5&direct=3",
+                    "1cs8WhgnF0IrtHrJMRse5xKZJys0pHCjy&temp=1&cap=6&direct=3"
+                                        
+                 ]
+                     
+},
+{
+    "id": "S049",
+    "temporadas":"2",
+    "temporada1":[
+                    "1MVmWAe6NzE9ttZ9ndT7p8G8qorvF_UwM&temp=1&cap=1&direct=3",
+                    "116mGhvAEeELJsGLF3F8BWSo0nGVe4oeB&temp=1&cap=2&direct=3",
+                    "1IePE82GO92OHAxkgqBpK9NN7z0c8Gc6T&temp=1&cap=3&direct=3",
+                    "1Wyv-NiOhMZtY5IBFfVCXnPypYbOWh1bf&temp=1&cap=4&direct=3",
+                    "1liuBzCQyMNAQ-GABMlQ242fISfu_PwXk&temp=1&cap=5&direct=3",
+                    "1T0WLc8PwClyxoL3wIBCpST0cFMpjszEk&temp=1&cap=6&direct=3",
+                    "1tSdWSFXKPeXthB3rV-rLkpt_76KetqIP&temp=1&cap=7&direct=3",
+                    "1Q8502s8m_scV3EHW0I3vsuuUM4LylqQ8&temp=1&cap=8&direct=3",
+                    "1ALHYUmUlFqpQkzmW7kptqZjZSuJsMfby&temp=1&cap=9&direct=3",
+                    "1LRs69dRb3KlgPPdTCpCDOuPz0dD4sTm_&temp=1&cap=10&direct=3"
+                    
+                 ],
+    "temporada2":[
+                    "11tQDlDU1jVlsFKGYcu-cL1cSIi25ovIV&temp=2&cap=1&direct=3",
+                    "1F3lVJeM7GkL2_YYJCHcBk3yFq9s-WHxB&temp=2&cap=2&direct=3",
+                    "1i71e78AfxBfwHs2ff83RiCQoz6efmn7R&temp=2&cap=3&direct=3",
+                    "1Bq6NjlMrpfo9J0Dx597bgR-RayAqFKu5&temp=2&cap=4&direct=3",
+                    "1Y8lsJMRpXq8XSb7CyQKX7bvyOUSIsIyB&temp=2&cap=5&direct=3",
+                    "14R-xFIOy28kzVbf6xxYqMx3aV85q120C&temp=2&cap=6&direct=3",
+                    "1AqkbTmt817Q_zwOtyzPiCJ4P0vo1ofJS&temp=2&cap=7&direct=3",
+                    "1JR8Efs182eLn4cuNu3vITftr0a9LbtTn&temp=2&cap=8&direct=3"
+                    
+                 ]
+
+                 
+},
+{
+    "id": "S006",
+    "temporadas":"2",
+    "temporada1":[
+                    "1JZ_KGPpEGdwwOFHCipP3V6TtOrVXab-e&temp=1&cap=1&direct=3",
+                    "1UY8F-_tSWrh2MPLcDtirsi7A85KFW1IN&temp=1&cap=2&direct=3",
+                    "1uV28sfkdmJitD94Nh6HG7aSNRZqcIfjp&temp=1&cap=3&direct=3",
+                    "1Q5HlRHV5ZT_fg1M5BpC8JMrV9Qh8Ven_&temp=1&cap=4&direct=3",
+                    "1x65kDM_u15hERZJFK8KKEeG5Lz1lz0Rn&temp=1&cap=5&direct=3",
+                    "1GnMy5yVCk8BgM47wisdJEOABP8ub-Z1m&temp=1&cap=6&direct=3",
+                    "1otPC6Vyd0dYEiJfE1mrjDYHN5siBB_aS&temp=1&cap=7&direct=3",
+                    "1m3JhznIjtTkff4Z4sE6Ha6n4ikl0YjdL&temp=1&cap=8&direct=3",
+                    "1C2tmcmb71FoDIwX4K5aXW2in2rcHxzzE&temp=1&cap=9&direct=3",
+                    "1LE8pQloAXIt2FeQax0wKT_j5Zd-gXONB&temp=1&cap=10&direct=3"
+                    
+                 ],
+    "temporada2":[
+                    "1YZA11g2vaXnnP8SjLw9AXLMptMq5-6r2&temp=2&cap=1&direct=3",
+                    "1_KjVK5ByEOLxA9H86E3tC6dM6SlEsa6v&temp=2&cap=2&direct=3",
+                    "1gRNRl2mssNALbVf-0wM4wWxEgMpJgQgK&temp=2&cap=3&direct=3",
+                    "1MQBG3G96_BaKtcuybpMf08pvW_VYfI8q&temp=2&cap=4&direct=3",
+                    "12hVLO49eCKkokOlkZUFmJxa_2mkiNlf4&temp=2&cap=5&direct=3",
+                    "1coSFMntrW2FfZu8mV0hITSTdb_FfoI-J&temp=2&cap=6&direct=3",
+                    "1hok70ErqdEC0iZ0lvierRd2EYf9-uque&temp=2&cap=7&direct=3",
+                    "1EudqeZSD766OreLG_EvRqSGvfXF8QF3Y&temp=2&cap=8&direct=3",
+                    "11CBgN74Pk4VvObb2M80iJ4J17p4M3Yst&temp=2&cap=9&direct=3",
+                    "1aogFx57FrqvtEt-Akm8AKNBeCQCcpqdw&temp=2&cap=10&direct=3"
+                 ]
+
+                 
+},
+{
+    "id": "S001",
+    "temporadas":"1",
+    "temporada1":[
+                    "1o-ocBcRaugFaxKacw8mmE-U621YZgxqf&temp=1&cap=1&direct=3",
+                    "1LIcn35ijm98m0toWrKHEXdTNbDqBn2Ov&temp=1&cap=2&direct=3",
+                    "17Ag9jjK_jKVlRwQWhHN1CiPk3gWHEmw5&temp=1&cap=3&direct=3",
+                    "1vseQWWxI45IOgYz9lGCtuMxPTjwS6oy3&temp=1&cap=4&direct=3",
+                    "1ePDxv8o9pL3v76tlvNMqpwW-fCC2QICj&temp=1&cap=5&direct=3",
+                    "127DIMvzIhoQNvBMP-RZFlT9LbzqVCRK9&temp=1&cap=6&direct=3",
+                    "1oS-tCxSv9bFVw45SNtcrS7PMCcGrY1IE&temp=1&cap=7&direct=3",
+                    "1ahsq43K3ZbzoUjOBZJdOkNSLMkQxOlwp&temp=1&cap=8&direct=3"
+                    
+                 ]
+                 
+},
+{
+    "id": "S048",
+    "temporadas":"1",
+    "temporada1":[
+                    "7809062537816&temp=1&cap=1&direct=",
+                    "7810551056984&temp=1&cap=2&direct=",
+                    "7809062603352&temp=1&cap=3&direct=",
+                    "7810190215768&temp=1&cap=4&direct=",
+                    "7810190346840&temp=1&cap=5&direct=",
+                    "7810190281304&temp=1&cap=6&direct=",
+                    "7810550860376&temp=1&cap=7&direct=",
+                    "7810550925912&temp=1&cap=8&direct=",
+                    "7810550991448&temp=1&cap=9&direct=",
+                    "7810551122520&temp=1&cap=10&direct="
+                    
+                 ]
+                 
+},
+{
+    "id": "S047",
+    "temporadas":"1",
+    "temporada1":[
+                    "nqs6ug2ea8lc&temp=1&cap=1&direct=4",
+                    "24v8canurjow&temp=1&cap=2&direct=4",
+                    "wj2lkynjros6&temp=1&cap=3&direct=4",
+                    "e7dwnwhs766n&temp=1&cap=4&direct=4",
+                    "7ks0mvbs720f&temp=1&cap=5&direct=4",
+                    "lp16wkb5l48d&temp=1&cap=6&direct=4",
+                    "t5kz98iun3yu&temp=1&cap=7&direct=4",
+                    "kt94infpyu6j&temp=1&cap=8&direct=4&ext=1YbXXT_qW8X-TWjV4bI8JtQimWBtdN9Pi"
+                    
+                 ]
+                 
+}
 ]
