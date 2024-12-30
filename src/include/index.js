@@ -75,7 +75,7 @@ index.innerHTML = `
     
     const fetchData = async () => {
        try{
-           const res = await fetch('../../js/movies.json');
+           const res = await fetch('https://loadigital.github.io/video360p/js/movies.json');
            const data = await res.json();
            pintarIndex(data);
        }catch (error) {
