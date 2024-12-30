@@ -30,7 +30,7 @@ index.innerHTML = `
         
         
                 <div class="bo-vermas col-12 flexrow-c">
-                    <a class="bot-1 flexrow-c" href="https://360p.biloa.store/peliculas"><i class="bi-cone-striped"></i> Cargar mas películas</a>
+                    <a class="bot-1 flexrow-c" href="https://loadigital.github.io/video360p/peliculas"><i class="bi-cone-striped"></i> Cargar mas películas</a>
                 </div>
     
                 
@@ -54,7 +54,7 @@ index.innerHTML = `
                 </div>
         
                 <div class="bo-vermas col-12 flexrow-c">
-                    <a class="bot-1 flexrow-c" href="https://www.biloa.store/series"><i class="bi-tv"></i>Cargar mas series</a>
+                    <a class="bot-1 flexrow-c" href="https://loadigital.github.io/video360p/series"><i class="bi-tv"></i>Cargar mas series</a>
                 </div>
     
             
