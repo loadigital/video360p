@@ -279,7 +279,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const pintarPageSeries = data => {
 
     data.forEach(element => {
-
+        var idd = element.id;
         if (id_db == element.id){
             console.log(element.id)
             if (element.temporadas == "1") {
@@ -288,7 +288,7 @@ document.addEventListener('DOMContentLoaded', () => {
     
                 deploy.innerHTML += `
                 <div class="modal-button col-1 flexrow-c">
-                <a id="bot-arriba" class="boton-arriba" href="${linkSeries + idB + '&v_id=' + element}" > <li class="col-12 bi-play-circle"> Temporada 1 Capitulo ${numerador[0] +=1}</li></a>
+                <a id="bot-arriba" class="boton-arriba" href="${linkSeries + idB + '&v_id=' + element + '&id_db=' + idd}" > <li class="col-12 bi-play-circle"> Temporada 1 Capitulo ${numerador[0] +=1}</li></a>
         
                 </div>
                 `
@@ -300,7 +300,7 @@ document.addEventListener('DOMContentLoaded', () => {
     
                 deploy.innerHTML += `
                 <div class="modal-button col-1 flexrow-c">
-                <a id="bot-arriba" class="boton-arriba" href="${linkSeries + idB + '&v_id=' + element}" > <li class="col-12 bi-play-circle"> Temporada 1 Capitulo ${numerador[0] +=1}</li></a>
+                <a id="bot-arriba" class="boton-arriba" href="${linkSeries + idB + '&v_id=' + element + '&id_db=' + idd}" > <li class="col-12 bi-play-circle"> Temporada 1 Capitulo ${numerador[0] +=1}</li></a>
         
                 </div>
                 `
@@ -311,7 +311,7 @@ document.addEventListener('DOMContentLoaded', () => {
     
                 deploy.innerHTML += `
                 <div class="modal-button col-1 flexrow-c">
-                <a id="bot-arriba" class="boton-arriba" href="${linkSeries + idB + '&v_id=' + element}" > <li class="col-12 bi-play-circle"> Temporada 2 Capitulo ${numerador[1] +=1}</li></a>
+                <a id="bot-arriba" class="boton-arriba" href="${linkSeries + idB + '&v_id=' + element + '&id_db=' + idd}" > <li class="col-12 bi-play-circle"> Temporada 2 Capitulo ${numerador[1] +=1}</li></a>
         
                 </div>
                 `
@@ -323,7 +323,7 @@ document.addEventListener('DOMContentLoaded', () => {
     
                 deploy.innerHTML += `
                 <div class="modal-button col-1 flexrow-c">
-                <a id="bot-arriba" class="boton-arriba" href="${linkSeries + idB + '&v_id=' + element}" > <li class="col-12 bi-play-circle"> Temporada 1 Capitulo ${numerador[0] +=1}</li></a>
+                <a id="bot-arriba" class="boton-arriba" href="${linkSeries + idB + '&v_id=' + element + '&id_db=' + idd}" > <li class="col-12 bi-play-circle"> Temporada 1 Capitulo ${numerador[0] +=1}</li></a>
         
                 </div>
                 `
@@ -334,7 +334,7 @@ document.addEventListener('DOMContentLoaded', () => {
     
                 deploy.innerHTML += `
                 <div class="modal-button col-1 flexrow-c">
-                <a id="bot-arriba" class="boton-arriba" href="${linkSeries + idB + '&v_id=' + element}" > <li class="col-12 bi-play-circle"> Temporada 2 Capitulo ${numerador[1] +=1}</li></a>
+                <a id="bot-arriba" class="boton-arriba" href="${linkSeries + idB + '&v_id=' + element + '&id_db=' + idd}" > <li class="col-12 bi-play-circle"> Temporada 2 Capitulo ${numerador[1] +=1}</li></a>
         
                 </div>
                 `
@@ -344,7 +344,7 @@ document.addEventListener('DOMContentLoaded', () => {
     
                 deploy.innerHTML += `
                 <div class="modal-button col-1 flexrow-c">
-                <a id="bot-arriba" class="boton-arriba" href="${linkSeries + idB + '&v_id=' + element}" > <li class="col-12 bi-play-circle"> Temporada 3 Capitulo ${numerador[2] +=1}</li></a>
+                <a id="bot-arriba" class="boton-arriba" href="${linkSeries + idB + '&v_id=' + element + '&id_db=' + idd}" > <li class="col-12 bi-play-circle"> Temporada 3 Capitulo ${numerador[2] +=1}</li></a>
         
                 </div>
                 `
@@ -356,7 +356,7 @@ document.addEventListener('DOMContentLoaded', () => {
     
                 deploy.innerHTML += `
                 <div class="modal-button col-1 flexrow-c">
-                <a id="bot-arriba" class="boton-arriba" href="${linkSeries + idB + '&v_id=' + element}" > <li class="col-12 bi-play-circle"> Temporada 1 Capitulo ${numerador[0] +=1}</li></a>
+                <a id="bot-arriba" class="boton-arriba" href="${linkSeries + idB + '&v_id=' + element + '&id_db=' + idd}" > <li class="col-12 bi-play-circle"> Temporada 1 Capitulo ${numerador[0] +=1}</li></a>
         
                 </div>
                 `
@@ -367,7 +367,7 @@ document.addEventListener('DOMContentLoaded', () => {
     
                 deploy.innerHTML += `
                 <div class="modal-button col-1 flexrow-c">
-                <a id="bot-arriba" class="boton-arriba" href="${linkSeries + idB + '&v_id=' + element}" > <li class="col-12 bi-play-circle"> Temporada 2 Capitulo ${numerador[1] +=1}</li></a>
+                <a id="bot-arriba" class="boton-arriba" href="${linkSeries + idB + '&v_id=' + element + '&id_db=' + idd}" > <li class="col-12 bi-play-circle"> Temporada 2 Capitulo ${numerador[1] +=1}</li></a>
         
                 </div>
                 `
@@ -377,7 +377,7 @@ document.addEventListener('DOMContentLoaded', () => {
     
                 deploy.innerHTML += `
                 <div class="modal-button col-1 flexrow-c">
-                <a id="bot-arriba" class="boton-arriba" href="${linkSeries + idB + '&v_id=' + element}" > <li class="col-12 bi-play-circle"> Temporada 3 Capitulo ${numerador[2] +=1}</li></a>
+                <a id="bot-arriba" class="boton-arriba" href="${linkSeries + idB + '&v_id=' + element + '&id_db=' + idd}" > <li class="col-12 bi-play-circle"> Temporada 3 Capitulo ${numerador[2] +=1}</li></a>
         
                 </div>
                 `
@@ -387,7 +387,7 @@ document.addEventListener('DOMContentLoaded', () => {
     
                 deploy.innerHTML += `
                 <div class="modal-button col-1 flexrow-c">
-                <a id="bot-arriba" class="boton-arriba" href="${linkSeries + idB + '&v_id=' + element}" > <li class="col-12 bi-play-circle"> Temporada 4 Capitulo ${numerador[3] +=1}</li></a>
+                <a id="bot-arriba" class="boton-arriba" href="${linkSeries + idB + '&v_id=' + element + '&id_db=' + idd}" > <li class="col-12 bi-play-circle"> Temporada 4 Capitulo ${numerador[3] +=1}</li></a>
         
                 </div>
                 `
@@ -399,7 +399,7 @@ document.addEventListener('DOMContentLoaded', () => {
     
                 deploy.innerHTML += `
                 <div class="modal-button col-1 flexrow-c">
-                <a id="bot-arriba" class="boton-arriba" href="${linkSeries + idB + '&v_id=' + element}" > <li class="col-12 bi-play-circle"> Temporada 1 Capitulo ${numerador[0] +=1}</li></a>
+                <a id="bot-arriba" class="boton-arriba" href="${linkSeries + idB + '&v_id=' + element + '&id_db=' + idd}" > <li class="col-12 bi-play-circle"> Temporada 1 Capitulo ${numerador[0] +=1}</li></a>
         
                 </div>
                 `
@@ -410,7 +410,7 @@ document.addEventListener('DOMContentLoaded', () => {
     
                 deploy.innerHTML += `
                 <div class="modal-button col-1 flexrow-c">
-                <a id="bot-arriba" class="boton-arriba" href="${linkSeries + idB + '&v_id=' + element}" > <li class="col-12 bi-play-circle"> Temporada 2 Capitulo ${numerador[1] +=1}</li></a>
+                <a id="bot-arriba" class="boton-arriba" href="${linkSeries + idB + '&v_id=' + element + '&id_db=' + idd}" > <li class="col-12 bi-play-circle"> Temporada 2 Capitulo ${numerador[1] +=1}</li></a>
         
                 </div>
                 `
@@ -420,7 +420,7 @@ document.addEventListener('DOMContentLoaded', () => {
     
                 deploy.innerHTML += `
                 <div class="modal-button col-1 flexrow-c">
-                <a id="bot-arriba" class="boton-arriba" href="${linkSeries + idB + '&v_id=' + element}" > <li class="col-12 bi-play-circle"> Temporada 3 Capitulo ${numerador[2] +=1}</li></a>
+                <a id="bot-arriba" class="boton-arriba" href="${linkSeries + idB + '&v_id=' + element + '&id_db=' + idd}" > <li class="col-12 bi-play-circle"> Temporada 3 Capitulo ${numerador[2] +=1}</li></a>
         
                 </div>
                 `
@@ -430,7 +430,7 @@ document.addEventListener('DOMContentLoaded', () => {
     
                 deploy.innerHTML += `
                 <div class="modal-button col-1 flexrow-c">
-                <a id="bot-arriba" class="boton-arriba" href="${linkSeries + idB + '&v_id=' + element}" > <li class="col-12 bi-play-circle"> Temporada 4 Capitulo ${numerador[3] +=1}</li></a>
+                <a id="bot-arriba" class="boton-arriba" href="${linkSeries + idB + '&v_id=' + element + '&id_db=' + idd}" > <li class="col-12 bi-play-circle"> Temporada 4 Capitulo ${numerador[3] +=1}</li></a>
         
                 </div>
                 `
@@ -440,7 +440,7 @@ document.addEventListener('DOMContentLoaded', () => {
     
                 deploy.innerHTML += `
                 <div class="modal-button col-1 flexrow-c">
-                <a id="bot-arriba" class="boton-arriba" href="${linkSeries + idB + '&v_id=' + element}" > <li class="col-12 bi-play-circle"> Temporada 5 Capitulo ${numerador[4] +=1}</li></a>
+                <a id="bot-arriba" class="boton-arriba" href="${linkSeries + idB + '&v_id=' + element + '&id_db=' + idd}" > <li class="col-12 bi-play-circle"> Temporada 5 Capitulo ${numerador[4] +=1}</li></a>
         
                 </div>
                 `
