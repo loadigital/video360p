@@ -1,6 +1,7 @@
 
 <script>
     let url_vlr = new URL(document.location).searchParams;
+    let cal = url_vlr.get('cal');
 </script>
 <!DOCTYPE html>
 <html lang="en">
@@ -43,7 +44,7 @@
     </div>
     
     <div class="co-link">
-	   		<a id="descarga" target="_blank" href=""><button class="bot-1 bi-cloud-arrow-down"> Descargar - <?= $cal ?></button></a>
+	   		<a id="descarga" target="_blank" href=""><button id="cali--" class="bot-1 bi-cloud-arrow-down"><script>document.getElementById("cali--").innerHTML = ` Descargar - ${cal}`</script>  </button></a>
 	
             <div class="anuncios"></div>
     </div>
@@ -193,9 +194,6 @@ function pintar(data){
         similares.appendChild(card)
     
     
-
-
-    let cal = url_vlr.get('cal');
     let v_id = url_vlr.get('v_id');
     let server = url_vlr.get('server');
 
