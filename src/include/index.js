@@ -216,7 +216,7 @@ index.innerHTML = `
     cardSeriesUltimas.innerHTML += `
     <div class="card">
         <div class="card-img">
-            <a href="${linkSeries + element.id + '&v_id=' + element.video}"><img class="img-card" src="${element.img}" alt=""></a>
+            <a href="${linkSeries + element.id + '&v_id=' + element.video + '&id_db=' + element.poster}"><img class="img-card" src="${element.img}" alt=""></a>
         </div>
         <div class="card-body">
        
