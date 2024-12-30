@@ -2,6 +2,9 @@
 <script>
     let url_vlr = new URL(document.location).searchParams;
     let cal = url_vlr.get('cal');
+    let v_id = url_vlr.get('v_id');
+    let server = url_vlr.get('server');
+    let id = url_vlr.get('id')
 </script>
 <!DOCTYPE html>
 <html lang="en">
@@ -193,28 +196,27 @@ function pintar(data){
         `
         similares.appendChild(card)
     
-    
-    let v_id = url_vlr.get('v_id');
-    let server = url_vlr.get('server');
-
-    //let externo = element.externo;
-    //console.log(externo)
-
-    if (element.externo != "0" && element.externo != "" ) {
-        document.getElementById("ver").src = element.externo;
-        document.getElementById("descarga").href = "http://localhost/B!LOA%20APP%200.5/page/descarga.php?id=" +  element.video + '&t=' + element.title;
-    }else if (cal === "null" || cal === "nulls") {
-        document.getElementById("ver").src = "https://loadigital.github.io/movies.biloa/archivo%20no%20disponible.html";
-        document.getElementById("descarga").href = "https://loadigital.github.io/movies.biloa/archivo%20no%20disponible.html";
-    }else{
-
-        document.getElementById("ver").src = "https://loadigital.github.io/movies.biloa/ok.stream.html?id=" + v_id;
-        document.getElementById("descarga").href = "https://biloa.store/src/page/descarga.php?id=" +  element.video + '&t=' + element.title;
-        
-    }
-    
 }    
-})  
+}) 
+data.forEach(element =>{
+
+if (element.id == id) {
+
+if (element.externo != "0" && element.externo != "" ) {
+    document.getElementById("ver").src = element.externo;
+    document.getElementById("descarga").href = "http://localhost/B!LOA%20APP%200.5/page/descarga.php?id=" +  element.video + '&t=' + element.title;
+}else if (cal === "null" || cal === "nulls") {
+    document.getElementById("ver").src = "https://loadigital.github.io/movies.biloa/archivo%20no%20disponible.html";
+    document.getElementById("descarga").href = "https://loadigital.github.io/movies.biloa/archivo%20no%20disponible.html";
+}else{
+
+    document.getElementById("ver").src = "https://loadigital.github.io/movies.biloa/ok.stream.html?id=" + v_id;
+    document.getElementById("descarga").href = "https://biloa.store/src/page/descarga.php?id=" +  element.video + '&t=' + element.title;
+    
+}
+
+}
+})
 
 }
 
