@@ -1,0 +1,191 @@
+/*
+---© Proyecto B!LOA. All rights reserved
+---Autor:Ober Hernandez
+---Proyecto de aprendizaje
+---info.biloa@gmail.com
+*/
+
+html, body{
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+body{
+    background: #000000;
+    
+}
+
+
+.co-icon-p {
+    width: 10%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.co-icon-p .bi-arrow-left-short{
+    color: #fff;
+    font-size: 30px;
+    border: solid 0px #fff;
+}
+.co-title-p{
+    width: 90%;
+    font-size: 20px;
+    font-family: Verdana;
+    border: solid 0px #fff;
+}
+main{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}
+
+.cont-main{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: solid 0px #fff;
+}
+.cont-buscador{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: solid 0px #fff;
+}
+.buscador{
+    width: 100%;
+    max-width: 1024px;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: solid 0px #fff;
+    background: #000000;
+    padding: 7px 7px;
+   
+    
+}
+
+.buscador input{
+    width: 100%;
+    max-width: 460px;
+    height: 40px;
+    border-radius: 3px 3px;  
+    text-align: left; 
+    font-size: 18px;
+    color: #fff;
+    font-family: sans-serif;
+    outline: 0 none;
+    border-color: rgb(255, 144, 0, 0);
+    box-shadow: 0 1px 1px rgba(229, 103, 23, 0)inset, 0 0 8px rgba(255,144,0, 0);
+    background: rgb(68, 71, 71);
+    padding: 5px 5px;
+}
+
+.cont-cardss{
+    width: 100%;
+   
+}
+.cont-cards{
+    width: 100%;
+    display: block;
+    
+}
+.cards{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: #fff;
+    
+}
+
+.title-cards{
+    width: 100%;
+    max-width: 520px;
+    height: auto;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    font-size: 20px;
+    font-family: Arial Narrow; 
+    letter-spacing: 0.10em;
+    border: solid 0px #fff;
+    background: rgb(220, 118, 18, 0.3);
+    border-bottom: solid 1px #141414;
+    padding: 10px 10px;
+    border-radius: 7px 7px;
+}
+.title-cards p .bi-star, .title-cards p .bi-star-fill, .title-cards p .bi-star-half{
+    color: rgb(220, 118, 18);
+    margin-left: 2px;
+}
+.title-cards:hover{
+    background: #533012;
+    
+}
+.title-cards a{
+    text-decoration: none;
+    color: #969292;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.title-cards img{
+    width: 100%;
+    max-width: 80px;
+    height: 110px;
+    margin-right: 10px;
+    border-radius: 3px 3px;
+}
+.title-cards p{
+    width: 100%;
+    border: solid 0px #920000;
+    text-align: center;
+   font-size: 18px;
+}
+
+
+.cards_no{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: absolute;
+    color: #fff;
+    border: solid 0px #fff;
+    text-align: center;
+}
+
+@media screen and (max-width: 800px){
+    .buscador{
+        width: 95%;
+    }
+	
+   
+    .title-cards{
+        width: 90%;
+        font-size: 16px;
+    }
+    .cards{
+        margin-bottom: 0px;
+    }
+   
+}
+

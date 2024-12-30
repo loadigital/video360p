@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="img/icono.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peliculas</title>
+    <link rel="stylesheet" href="https://loadigital.github.io/movies.biloa/icon/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/libreria-1-0-1.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/api.js"></script>
+    <script src="https://loadigital.github.io/movies.biloa/js/jquery.js"></script>
+</head>
+<body>
+<div id="loading"></div>
+<div id="scalar"></div>
+<div id="include-header"></div>
+<main id="main--">
+
+    <section class="peliculas-online col-12 flexrow-c" >
+        <div class="contenedor-cards-main col-12 flexrow-c">
+        
+
+            <div class="col-12">
+                <div class="text-t col-3 flexrow-de"><h1>Películas Online</h1></div>
+                <div class="menu-page col-8 flexrow-de">
+                    <p class="active-" data-target="#ultimas">ÚLTIMAS</p>
+                    <p data-target="#tendencias">PUNTUACIÓN MAS ALTA</p>
+                    <p data-target="#estrenos">ESTRENOS 2024</p>
+                </div>
+            </div>
+           
+        
+                <div class="active" data-content id="ultimas">
+                    <div class="co-cardss grid-1" id="co-cardss"></div>
+                </div>
+        
+                <div data-content id="tendencias">
+                    <div class="co-cardss grid-1" id="co-cardss-tendencias"></div>
+                </div>
+        
+                <div data-content id="estrenos">
+                    <div class="co-cardss grid-1" id="co-cardss-estrenos"></div>
+                </div>
+        
+        </div>
+        
+    </section>
+    <div class="col-12" id="footer"></div>
+    
+</main>
+
+<script>
+    const ultimas = document.getElementById("co-cardss");
+    const tendencias = document.getElementById("co-cardss-tendencias");
+    const estrenos = document.getElementById("co-cardss-estrenos");
+    const ultimasSeries = document.getElementById("co-cardss-series");
+    
+
+    document.addEventListener('DOMContentLoaded', () => {
+        fetchData();
+    });
+    
+    const fetchData = async () => {
+       try{
+           const res = await fetch('../../js/movies.json');
+           const data = await res.json();
+           pintarPagePeliculas(data);
+       }catch (error) {
+           console.log(error);
+       }
+    }
+    const pintarPagePeliculas = data => {
+        
+        data.toReversed().forEach(element => {
+    
+       
+        const card = document.createElement("div");
+            
+            card.innerHTML += `
+            <div class="card">
+                <div class="card-img">
+                    <a href="${linkMovies + element.id + '&v_id=' + element.video + '&cal=' + element.calidad}"><img class="img-card" src="${element.img}" alt=""></a>
+                </div>
+                <div class="card-body">
+               
+                <div class="title-card"><h1 class="colore">${element.title}</h1></div>
+                
+                </div>
+            </div> 
+            `
+            ultimas.appendChild(card)
+    
+        
+    })
+          
+    data.forEach(element => {
+        if(element.puntuacion >= "7.9"){
+    
+    const cardTendencias = document.createElement("div");
+    
+    cardTendencias.innerHTML += `
+    <div class="card">
+                <div class="card-img">
+                    <a href="${linkMovies + element.id + '&v_id=' + element.video + '&cal=' + element.calidad}"><img class="img-card" src="${element.img}" alt=""></a>
+                </div>
+                <div class="card-body">
+               
+                <div class="title-card"><h1 class="colore">${element.title}</h1></div>
+                
+                </div>
+            </div> 
+    `
+    tendencias.appendChild(cardTendencias)
+    
+    }
+    })
+    
+    data.forEach(element => {
+        if(element.año === "2024"){
+    
+    const cardEstrenos = document.createElement("div");
+    
+    cardEstrenos.innerHTML += `
+    <div class="card">
+        <div class="card-img">
+            <a href="${linkMovies + element.id + '&v_id=' + element.video + '&cal=' + element.calidad}"><img class="img-card" src="${element.img}" alt=""></a>
+        </div>
+        <div class="card-body">
+       
+        <div class="title-card"><h1 class="colore">${element.title}</h1></div>
+        
+        </div>
+    </div> 
+    `
+    estrenos.appendChild(cardEstrenos)
+    
+    }
+    })
+    }
+</script>
+
+<script type="module" src="js/main.js"></script>
+<script type="module" src="js/libreria-1-0-1.js"></script>
+</body>
+</html>

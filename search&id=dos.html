@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="img/icono.png" type="image/x-icon">
+    <meta name="theme-color" content="#242424">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscador de Series</title>
+    <link rel="stylesheet" href="css/libreria-1-0-1.css">
+    
+    <link rel="stylesheet" href="css/buscador.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://loadigital.github.io/movies.biloa/icon/bootstrap-icons.css">
+    <script src="https://loadigital.github.io/movies.biloa/js/jquery.js"></script>
+   
+    <script src="js/api.js"></script>
+    
+</head>
+<body>
+
+    <div id="loading"></div>
+    <div id="include-header"></div>
+    <main>
+        
+        <div class="cont-main">
+            <div class="cont-buscador">
+                <div class="buscador">
+                    <input type="search" placeholder="Buscar..." id="inp">
+                </div>
+                <div class="cont-cardss" id="cont-cardss"></div>
+            </div>
+        </div>
+
+    </main>
+<script>
+    //buscador
+function ponleFocus(){
+    document.getElementById("inp").focus();
+}
+
+ponleFocus();
+
+const inp = document.getElementById("inp");
+//const boton = document.getElementById("boton");
+const cont_cards = document.getElementById("cont-cardss")
+const fragment = document.createDocumentFragment();
+document.addEventListener('DOMContentLoaded', () => {
+        fetchData();
+    });
+    
+    const fetchData = async () => {
+       try{
+           const res = await fetch('js/series.json');
+           const data = await res.json();
+           pintarPagePeliculas(data);
+       }catch (error) {
+           console.log(error);
+       }
+    }
+    const pintarPagePeliculas = data => {
+
+    data.toReversed().forEach(element => {
+    
+        const div_cont_cards = document.createElement("div");
+        div_cont_cards.className = "cont-cards"
+        div_cont_cards.innerHTML += `
+        <div class="co-cards">
+        <div class="cards">
+         <div class="title-cards"><a  href="${linkMovies + element.id + '&v_id=' + element.video + '&cal=' + element.calidad}">
+            <img src="${element.img}" alt=""> 
+            <p> ${element.title} <br><i class="bi-star-fill"></i><i class="bi-star-half"></i><i class="bi-star"></i> ${element.puntuacion}<br>${element.año}</p>
+           
+         </a></div>
+        </div>
+        </div>
+        
+        `
+        const clone =  div_cont_cards.cloneNode(true); 
+        fragment.appendChild(clone);
+        cont_cards.appendChild(fragment);
+    });
+    };
+
+    $(document).ready(function(){
+    $("#inp").on("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    $(".title-cards").filter(function() {
+    $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+            });
+        });
+    });//buscador
+   
+</script>
+
+<script type="module" src="js/main.js"></script>
+<script type="module" src="js/libreria-1-0-1.js"></script>
+</body>
+</html>

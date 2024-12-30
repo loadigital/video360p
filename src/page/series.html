@@ -1,0 +1,503 @@
+<script>
+    let vrl = new URL(document.location).searchParams;
+    let cap = vrl.get('cap');
+    let temp = vrl.get('temp');
+    let idB = vrl.get('id');
+    let id_db = vrl.get('id_db');
+</script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="../../img/icono.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="titulo"></title>
+    <link rel="stylesheet" href="../../css/libreria-1-0-1.css">
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="https://loadigital.github.io/movies.biloa/icon/bootstrap-icons.css">
+    <script src="../../js/rolda-cs.js"></script>
+    <script src="https://loadigital.github.io/movies.biloa/js/jquery.js"></script>
+    
+    <script src="../../js/api.js"></script>
+    <style>
+        #container{display: none;}
+        .co-link{width: 100%;height: auto;display: flex;flex-direction: row;flex-wrap: wrap;justify-content: center;}
+        .co-link a{ width: 100%;height: auto;display: flex;flex-direction: row;flex-wrap: wrap;justify-content: center;margin: 7px;text-decoration:none;}
+        .bot-2{background:#dc7612;padding: 7px;border-radius: 5px 5px;font-family: Arial;border: none;}
+        .bi-cloud-arrow-down, .bi-play-circle {font-size: 20px;color:#fff;}
+        .co-link .viendo{margin-top: 10px;color:#dc7612;}
+        .co-link p{margin-top: 10px;}
+        #ver{background:#000;}
+        .bot-1{background:#dc7612;}
+        .servidor-- img{width: 100%;max-width: 200px;}
+        .servidor-- p{font-size: 24px;}
+    </style>
+</head>
+<body>
+    <div id="loading"></div>
+    <div id="include-header"></div>
+<main id="main--">
+<section style="padding: 0px;" id="section-class" class="section-class col-12 flexrow-c" >
+    <div class="contenedor-video col-12 flexrow-c" id="video--">
+    <div class="contenedor-iframe col-12 flexrow-c">
+        
+        
+        <iframe id="ver" src="" frameborder=0 marginwidth=0 marginheight=0 scrolling=no width=720 height=460 allowfullscreen allow="autoplay" ></iframe>
+    </div>
+    <div class="co-link">
+	   		<p class="viendo">Estas Viendo: </p>
+            <p id="tc">
+                <script>document.querySelector("#tc").innerHTML = `Temporada ${temp} - Capítulo ${cap}`</script>
+            </p>
+	</div>
+    
+
+    <div class="co-link">
+	   		<a id="descarga" target="_blank" href=""><button class="bot-2 bi-cloud-arrow-down"> Descargar</button></a>
+            
+	</div>
+	
+	<div class="col-12 flexrow-c" id="embe-s">
+        <div class="deploy--" id="deploy_">
+            <div class="modal-button-1 submenu-btn-deploy col-12"><button class="bot-2 bi-chevron-double-down"> Lista de Reproducción</button></div>
+            <div class="cont-deploy--" id="cont-deploy"></div>
+        </div>
+        <div class="anuncios"></div>
+    </div>
+    </div>
+    
+    <div class="anuncios col-12 flexrow-c"></div>
+    <div class="similares-title col-12 flexrow-de"><p class="colore">Recomendadas de Video 360p:</p></div>
+    <div class="cards-similares grid-2 col-12 flexrow-c" id="cards-similares"></div>
+
+    <div class="anuncios"></div>
+    <div class="col-12 flexrow-c" style="padding: 0px;">
+        <div class="col-12" id="footer"></div> 
+    </div>
+    
+</section>
+</main>
+<script>
+var img_fondo;
+
+
+const video = document.getElementById("video--");
+
+const  API_URL  =  BASE_URL  +  '/tv/' + idB + '?' + API_KEY + '&language=es-ES';//CODIGO TMBD
+
+
+getMovie(API_URL);
+
+function getMovie(url){
+    fetch(url).then(res => res.json()).then(data =>{
+        console.log(data)
+        pintar(data);
+    });
+};
+
+function pintar(data){
+    console.log(data)
+    img_fondo = IMG_URL + data.backdrop_path;
+    function calHora(minutos){
+        let horas = Math.floor(minutos / 60);
+        let minutosRes = minutos % 60;
+        return {horas, minutos: minutosRes};
+    };
+   let x = calHora(data.runtime);
+   document.querySelector("#titulo").innerHTML = data.name;
+
+   var title_name = data.name;
+   const resumen = document.createElement("div");
+    
+    resumen.innerHTML = `
+    <style>
+     #section-class{
+      background: linear-gradient(rgba(0,0,0,0.2) 0%,rgb(0, 0, 0) 100%),
+      url(${IMG_URL + data.backdrop_path});
+      background-repeat: no-repeat;
+      background-size: 100%;
+      height: 40.62em;
+      align-items: flex-start;
+        }
+    @media screen and (max-width:800px ) {
+    #section-class{
+        height: 15.62em;
+    }
+    }
+    </style>
+    
+    
+        <div class="contenedor-title-video col-12 flexrow-c">
+            <div class="title-video col-12"><p>${data.name}</p></div>
+        </div>
+        <div class="col-12 flexrow-c">
+            <div class="puntuacion-genres col-12 flexrow-c">
+                <i class="bi-star-fill"></i><i class="bi-star-half"></i><i class="bi-star"></i>
+                <p>${data.vote_average.toFixed(1)}</p><div class="col-12 flexrow-de" id="divGenres"><p class="colore">Genero: </p></div></div>
+                <div class="puntuacion-genres col-12 flexrow-c"><p class="colore">Estreno: </p><p>${data.first_air_date} </p></div>
+                <div class="puntuacion-genres col-12 flexrow-c"><p class="colore">Temporadas: </p><p>${data.number_of_seasons} </p><p class="colore">Episodios: </p><p>${data.number_of_episodes} </p></div>
+        </div>
+        <div class="descripcion-video col-12 flexrow-de">
+            <p class="colore-">${data.overview}</p>
+        </div>
+        
+     `
+     video.appendChild(resumen)
+    const divGenres = document.getElementById("divGenres")
+     data.genres.forEach(genres =>{
+    const _pgenres = document.createElement("p");
+    _pgenres.className="_pgenres"
+    _pgenres.innerHTML = `${genres.name},`
+        divGenres.appendChild(_pgenres);
+
+    });
+
+    // 1 = okru
+    // 2 = strwish
+    // 3 = google drive
+    // 4 = filemoon
+    let text_1 = "../img/okru.png"
+    let text_2 = "../img/streamwish.svg"
+    let text_3 = "../img/google-drive.png"
+    let text_4 = "../img/filemoon.svg"
+
+    let descarga = "https://biloa.store/page/descarga.php?id=";
+
+    
+    let v_id = vrl.get('v_id');
+    let direct = vrl.get('direct');
+    let ext = vrl.get('ext');
+
+
+    if (direct === "2") {
+        document.getElementById("ver").src = "https://strwish.com/e/" + v_id;
+        document.getElementById("descarga").href = descarga + v_id + '&server=' + direct + '&t=' + title_name + " " + temp + "x" + cap;
+    }else if (direct === "3") {
+        document.getElementById("ver").src = "https://drive.google.com/file/d/" +  v_id + "/preview";
+        document.getElementById("descarga").href = descarga + v_id + '&server=' + direct + '&t=' + title_name + " " + temp + "x" + cap;
+    }else if (direct === "4") {
+             document.getElementById("ver").src = "https://filemoon.sx/e/" +  v_id;
+        
+        if (ext === null || ext === "0") {
+            
+            document.getElementById("descarga").href = descarga + v_id + '&server=' + direct + '&t=' + title_name + " " + temp + "x" + cap;
+        }else{
+            
+            document.getElementById("descarga").href = descarga + ext + '&server=3' + '&t=' + title_name + " " + temp + "x" + cap;
+        }
+    
+    }else if (direct === "5") {
+        
+        document.getElementById("ver").src = v_id;
+        
+        if (ext === "0") {
+            
+            document.getElementById("descarga").href = "https://loadigital.github.io/movies.biloa/archivo%20no%20disponible.html";
+        }else{
+            
+            document.getElementById("descarga").href = descarga + ext + '&server=' + '3' + '&t=' + title_name + " " + temp + "x" + cap;
+        }
+    }else{
+
+
+        if (direct === '1' ) {
+                
+                document.getElementById("ver").src = "https://loadigital.github.io/movies.biloa/ok.stream.html?id=" + v_id;
+                document.getElementById("descarga").href = descarga + v_id + '&server=' + direct + '&t=' + title_name + " " + temp + "x" + cap;
+        }else{
+           
+            document.getElementById("ver").src = "https://loadigital.github.io/movies.biloa/ok.stream.html?id=" + v_id;
+	        document.getElementById("descarga").href = descarga + v_id + '&server=' + direct + '&t=' + title_name + " " + temp + "x" + cap;
+        }
+  
+    }
+    
+    
+}
+
+
+document.addEventListener('DOMContentLoaded', () => {
+        fetchData();
+    });
+    
+    const fetchData = async () => {
+       try{
+           const res = await fetch('../../js/series.json');
+           const data = await res.json();
+           pintarPagePeliculas(data);
+       }catch (error) {
+           console.log(error);
+       }
+    }
+    
+
+    const pintarPagePeliculas = data => {
+    const similares = document.getElementById("cards-similares");
+    const newArrayNew = data.toReversed().slice(0, 4);
+    newArrayNew.forEach(element => {
+
+    const card = document.createElement("div");
+        
+        card.innerHTML += `
+        <div class="card">
+            <div class="card-img">
+                <a href="${linkSeries + element.id + '&v_id=' + element.video}"><img class="img-card" src="${element.img}" alt=""></a>
+            </div>
+            <div class="card-body">
+           
+            <div class="title-card"><h1>${element.title}</h1></div>
+            
+            </div>
+        </div> 
+        `
+        similares.appendChild(card)
+
+    
+})
+}
+
+
+let numerador = [0, 0, 0, 0, 0];
+
+
+const deploy = document.getElementById("cont-deploy");
+
+
+document.addEventListener('DOMContentLoaded', () => {
+        fetchD();
+    });
+    
+    const fetchD = async () => {
+       try{
+           const res = await fetch('../../js/link-series.json');
+           const data = await res.json();
+           pintarPageSeries(data);
+       }catch (error) {
+           console.log(error);
+       }
+    }
+    const pintarPageSeries = data => {
+
+    data.forEach(element => {
+
+        if (id_db == element.id){
+            console.log(element.id)
+            if (element.temporadas == "1") {
+                deploy.innerHTML += `<p class="col-12 flexrow-c">Temporada 1:</p>`
+                element.temporada1.forEach(element => {
+    
+                deploy.innerHTML += `
+                <div class="modal-button col-1 flexrow-c">
+                <a id="bot-arriba" class="boton-arriba" href="${linkSeries + idB + '&v_id=' + element}" > <li class="col-12 bi-play-circle"> Temporada 1 Capitulo ${numerador[0] +=1}</li></a>
+        
+                </div>
+                `
+                });
+            }//TEMP1
+            if (element.temporadas == "2") {
+                deploy.innerHTML += `<p class="col-12 flexrow-c">Temporada 1:</p>`
+                element.temporada1.forEach(element => {
+    
+                deploy.innerHTML += `
+                <div class="modal-button col-1 flexrow-c">
+                <a id="bot-arriba" class="boton-arriba" href="${linkSeries + idB + '&v_id=' + element}" > <li class="col-12 bi-play-circle"> Temporada 1 Capitulo ${numerador[0] +=1}</li></a>
+        
+                </div>
+                `
+                });
+
+                deploy.innerHTML += `<p class="col-12 flexrow-c">Temporada 2:</p>`
+                element.temporada2.forEach(element => {
+    
+                deploy.innerHTML += `
+                <div class="modal-button col-1 flexrow-c">
+                <a id="bot-arriba" class="boton-arriba" href="${linkSeries + idB + '&v_id=' + element}" > <li class="col-12 bi-play-circle"> Temporada 2 Capitulo ${numerador[1] +=1}</li></a>
+        
+                </div>
+                `
+                });
+            }//TEMP2
+            if (element.temporadas == "3") {
+                deploy.innerHTML += `<p class="col-12 flexrow-c">Temporada 1:</p>`
+                element.temporada1.forEach(element => {
+    
+                deploy.innerHTML += `
+                <div class="modal-button col-1 flexrow-c">
+                <a id="bot-arriba" class="boton-arriba" href="${linkSeries + idB + '&v_id=' + element}" > <li class="col-12 bi-play-circle"> Temporada 1 Capitulo ${numerador[0] +=1}</li></a>
+        
+                </div>
+                `
+                });
+
+                deploy.innerHTML += `<p class="col-12 flexrow-c">Temporada 2:</p>`
+                element.temporada2.forEach(element => {
+    
+                deploy.innerHTML += `
+                <div class="modal-button col-1 flexrow-c">
+                <a id="bot-arriba" class="boton-arriba" href="${linkSeries + idB + '&v_id=' + element}" > <li class="col-12 bi-play-circle"> Temporada 2 Capitulo ${numerador[1] +=1}</li></a>
+        
+                </div>
+                `
+                });
+                deploy.innerHTML += `<p class="col-12 flexrow-c">Temporada 3:</p>`
+                element.temporada3.forEach(element => {
+    
+                deploy.innerHTML += `
+                <div class="modal-button col-1 flexrow-c">
+                <a id="bot-arriba" class="boton-arriba" href="${linkSeries + idB + '&v_id=' + element}" > <li class="col-12 bi-play-circle"> Temporada 3 Capitulo ${numerador[2] +=1}</li></a>
+        
+                </div>
+                `
+                });
+            }//TEMP3
+            if (element.temporadas == "4") {
+                deploy.innerHTML += `<p class="col-12 flexrow-c">Temporada 1:</p>`
+                element.temporada1.forEach(element => {
+    
+                deploy.innerHTML += `
+                <div class="modal-button col-1 flexrow-c">
+                <a id="bot-arriba" class="boton-arriba" href="${linkSeries + idB + '&v_id=' + element}" > <li class="col-12 bi-play-circle"> Temporada 1 Capitulo ${numerador[0] +=1}</li></a>
+        
+                </div>
+                `
+                });
+
+                deploy.innerHTML += `<p class="col-12 flexrow-c">Temporada 2:</p>`
+                element.temporada2.forEach(element => {
+    
+                deploy.innerHTML += `
+                <div class="modal-button col-1 flexrow-c">
+                <a id="bot-arriba" class="boton-arriba" href="${linkSeries + idB + '&v_id=' + element}" > <li class="col-12 bi-play-circle"> Temporada 2 Capitulo ${numerador[1] +=1}</li></a>
+        
+                </div>
+                `
+                });
+                deploy.innerHTML += `<p class="col-12 flexrow-c">Temporada 3:</p>`
+                element.temporada3.forEach(element => {
+    
+                deploy.innerHTML += `
+                <div class="modal-button col-1 flexrow-c">
+                <a id="bot-arriba" class="boton-arriba" href="${linkSeries + idB + '&v_id=' + element}" > <li class="col-12 bi-play-circle"> Temporada 3 Capitulo ${numerador[2] +=1}</li></a>
+        
+                </div>
+                `
+                });
+                deploy.innerHTML += `<p class="col-12 flexrow-c">Temporada 4:</p>`
+                element.temporada4.forEach(element => {
+    
+                deploy.innerHTML += `
+                <div class="modal-button col-1 flexrow-c">
+                <a id="bot-arriba" class="boton-arriba" href="${linkSeries + idB + '&v_id=' + element}" > <li class="col-12 bi-play-circle"> Temporada 4 Capitulo ${numerador[3] +=1}</li></a>
+        
+                </div>
+                `
+                });
+            }//TEMP4
+            if (element.temporadas == "5") {
+                deploy.innerHTML += `<p class="col-12 flexrow-c">Temporada 1:</p>`
+                element.temporada1.forEach(element => {
+    
+                deploy.innerHTML += `
+                <div class="modal-button col-1 flexrow-c">
+                <a id="bot-arriba" class="boton-arriba" href="${linkSeries + idB + '&v_id=' + element}" > <li class="col-12 bi-play-circle"> Temporada 1 Capitulo ${numerador[0] +=1}</li></a>
+        
+                </div>
+                `
+                });
+
+                deploy.innerHTML += `<p class="col-12 flexrow-c">Temporada 2:</p>`
+                element.temporada2.forEach(element => {
+    
+                deploy.innerHTML += `
+                <div class="modal-button col-1 flexrow-c">
+                <a id="bot-arriba" class="boton-arriba" href="${linkSeries + idB + '&v_id=' + element}" > <li class="col-12 bi-play-circle"> Temporada 2 Capitulo ${numerador[1] +=1}</li></a>
+        
+                </div>
+                `
+                });
+                deploy.innerHTML += `<p class="col-12 flexrow-c">Temporada 3:</p>`
+                element.temporada3.forEach(element => {
+    
+                deploy.innerHTML += `
+                <div class="modal-button col-1 flexrow-c">
+                <a id="bot-arriba" class="boton-arriba" href="${linkSeries + idB + '&v_id=' + element}" > <li class="col-12 bi-play-circle"> Temporada 3 Capitulo ${numerador[2] +=1}</li></a>
+        
+                </div>
+                `
+                });
+                deploy.innerHTML += `<p class="col-12 flexrow-c">Temporada 4:</p>`
+                element.temporada4.forEach(element => {
+    
+                deploy.innerHTML += `
+                <div class="modal-button col-1 flexrow-c">
+                <a id="bot-arriba" class="boton-arriba" href="${linkSeries + idB + '&v_id=' + element}" > <li class="col-12 bi-play-circle"> Temporada 4 Capitulo ${numerador[3] +=1}</li></a>
+        
+                </div>
+                `
+                });
+                deploy.innerHTML += `<p class="col-12 flexrow-c">Temporada 5:</p>`
+                element.temporada5.forEach(element => {
+    
+                deploy.innerHTML += `
+                <div class="modal-button col-1 flexrow-c">
+                <a id="bot-arriba" class="boton-arriba" href="${linkSeries + idB + '&v_id=' + element}" > <li class="col-12 bi-play-circle"> Temporada 5 Capitulo ${numerador[4] +=1}</li></a>
+        
+                </div>
+                `
+                });
+            }//TEMP5
+        }
+            
+    });
+    }
+    
+
+//END CAPITULOS
+
+
+const subMenuBtn = document.querySelectorAll(".submenu-btn-deploy");
+     for(let i=0; i < subMenuBtn.length; i++){
+     subMenuBtn[i].addEventListener("click", function(){
+        
+         const subMenu = this.nextElementSibling;
+         const height = subMenu.scrollHeight;
+
+         if(subMenu.classList.contains("deploy")){
+            subMenu.classList.remove("deploy");
+            subMenu.removeAttribute("style");
+         } else{
+            subMenu.classList.add("deploy");
+            subMenu.style.height = height + "px";
+         };
+
+    });
+}; 
+
+const botArriba_ = document.querySelectorAll('#bot-arriba');
+let subArriba_ = true;
+for (let i = 0; i < botArriba_.length; i++){
+    botArriba_[i].addEventListener("click", function(){
+        if (botArriba_[i].classList.contains("boton-arriba")){
+            console.log(botArriba_.length)
+            window.scrollTo(0, 0);
+            subArriba_ = false;
+        } else{
+            window.scrollTo(0, 0);
+            subArriba_ = true;
+        };
+    });
+};
+
+
+</script>
+
+<script type="module" src="../../js/main.js"></script>
+<script type="module" src="../../js/libreria-1-0-1.js"></script>
+
+<div id="scalar"></div>
+</body>
+</html>
+
+
+
+

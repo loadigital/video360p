@@ -1,0 +1,142 @@
+<script>
+    let vrl = new URL(document.location).searchParams;
+    let genre = vrl.get('g');
+    
+</script>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="../../img/icono.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="titulo"></title>
+    <link rel="stylesheet" href="https://loadigital.github.io/movies.biloa/icon/bootstrap-icons.css">
+    <link rel="stylesheet" href="../../css/libreria-1-0-1.css">
+    <link rel="stylesheet" href="../../css/style.css">
+    <script src="../../js/api.js"></script>
+    <script src="https://loadigital.github.io/movies.biloa/js/jquery.js"></script>
+</head>
+<body>
+<div id="loading"></div>
+<div id="include-header"></div>
+<main  id="main--">
+    
+<section class="peliculas-online col-12 flexrow-c">
+    
+    <div class="contenedor-cards-main col-12 flexrow-c">
+        
+
+        <div class="col-12">
+            <div class="text-t col-3 flexrow-de" id="text-genero"></div>
+            <div class="menu-page col-8 flexrow-de">
+                <p class="active-" data-target="#ultimas">TODAS</p>
+                
+            </div>
+        </div>
+       
+        <div class="active" data-content id="ultimas">
+            <div class="co-cardss grid-1" id="co-cardss"></div>
+        </div>
+
+    </div>
+</section>
+
+<script>
+const colec_genres = [
+                {"id":28,"name":"Acción"},
+                {"id":12,"name":"Aventura"},
+                {"id":16,"name":"Animación"},
+                {"id":35,"name":"Comedia"},
+                {"id":80,"name":"Crimen"},
+                {"id":99,"name":"Documental"},
+                {"id":18,"name":"Drama"},
+                {"id":10751,"name":"Familia"},
+                {"id":14,"name":"Fantasía"},
+                {"id":36,"name":"Historia"},
+                {"id":27,"name":"Terror"},
+                {"id":10402,"name":"Música"},
+                {"id":9648,"name":"Misterio"},
+                {"id":10749,"name":"Romance"},
+                {"id":878,"name":"Ciencia ficción"},
+                {"id":10770,"name":"Película de TV"},
+                {"id":53,"name":"Suspense"},
+                {"id":10752,"name":"Bélica"},
+                {"id":37,"name":"Western"}
+            ]
+            
+colec_genres.forEach(element => {
+    if (element.id == genre) {
+        document.getElementById("text-genero").innerHTML =`<h1>${"Genero" + " " + element.name}</h1>`;
+        
+        document.querySelector("#titulo").innerHTML = element.name;
+    }
+    console.log(element.name)
+});
+ 
+const ultimas = document.getElementById("co-cardss");
+document.addEventListener('DOMContentLoaded', () => {
+        fetchData();
+    });
+    
+    const fetchData = async () => {
+       try{
+           const res = await fetch('../../js/movies.json');
+           const data = await res.json();
+           pintarPagePeliculas(data);
+       }catch (error) {
+           console.log(error);
+       }
+    }
+    const pintarPagePeliculas = data => {
+
+
+    data.toReversed().forEach(element => {
+
+        const  API_URL_G  =  BASE_URL  +  '/movie/' + element.id + '?' + API_KEY + '&language=es-ES';//CODIGO TMBD
+            
+            getMovieg(API_URL_G);
+
+            function getMovieg(url){
+            fetch(url).then(res => res.json()).then(data =>{
+                 console.log(data)
+                 pintar(data);
+                });
+            };
+
+ function pintar(data){
+  
+
+    if(element.genero === genre){
+    const card = document.createElement("div");
+        
+        card.innerHTML += `
+        <div class="card">
+            <div class="card-img">
+                <a href="${linkMovies + element.id + '&v_id=' + element.video + '&cal=' + element.calidad}"><img class="img-card" src="${IMG_URL + data.poster_path}" alt=""></a>
+            </div>
+            <div class="card-body">
+           
+            <div class="title-card"><h1>${data.title}</h1></div>
+            
+            </div>
+        </div> 
+        `
+        ultimas.appendChild(card)
+
+    }
+    }
+})
+
+}
+
+
+</script>
+
+</main>
+<div class="col-12" id="footer"></div>
+<div id="scalar"></div>
+<script type="module" src="../../js/main.js"></script>
+<script type="module" src="../../js/libreria-1-0-1.js"></script>
+</body>
+</html>
