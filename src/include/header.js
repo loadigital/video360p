@@ -14,10 +14,10 @@ divHeader.innerHTML = `
                 <div class="contenedor_list flexrow-c col-12">
                     <a class="flexrow-c a-lo" href="#" data="next"><img class="img-logo" src="https://www.biloa.store/img/LOGO11.png" alt=""></a>
                     
-                    <li class="next"><a href="https://www.biloa.store/" data="next"><span class="bi-house"></span>Inicio</a></li>
+                    <li class="next"><a href="https://loadigital.github.io/video360p/" data="next"><span class="bi-house"></span>Inicio</a></li>
             
-                    <li class="next"><a href="/peliculas" data="next"><span class="bi-cone-striped"></span>Películas</a></li>
-                    <li class="next"><a href="/series" data="next"><span class="bi-tv"></span>Series</a></li>
+                    <li class="next"><a href="/video360p/peliculas" data="next"><span class="bi-cone-striped"></span>Películas</a></li>
+                    <li class="next"><a href="/video360p/series" data="next"><span class="bi-tv"></span>Series</a></li>
                     
                     <li class="btn--"  id="btn--"><a href="#" data="next"><span class="bi-collection-play-fill"></span>Genero</a>
                         <ul class="hidden" id="hidden">
