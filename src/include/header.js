@@ -46,7 +46,7 @@ divHeader.innerHTML = `
                     <li class="btn-- class-web"><a id="btn--" href="#" data="next"><span class="bi-three-dots-vertical"></span>Mas Opciones</a>
                         <ul class="hidden" id="hidden">
         
-                            <li class="next"><a target="_blank" href="https://biloa.website/app/descargarApp.html" data="next"><span class="bi-android2"></span>Descargar App</a></li>
+                            <li class="next"><a target="_blank" href="https://loadigital.github.io/video360p/descargarApp.html" data="next"><span class="bi-android2"></span>Descargar App</a></li>
                             <li class="next"><a target="_blank" href="https://t.me/vid360p" data="next"><span class="bi-telegram"></span>Grupo Telegram</a></li>
                             <li class="next"><a  href="#" data="next"><span class="bi-gear-fill"></span>Versión 0.1</a></li>
                         </ul>
