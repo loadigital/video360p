@@ -5,7 +5,7 @@ footer.innerHTML = `
 <div class="footer col-12 flexrow-c">
 <div class="col-12 flexrow-c">
     <div class="col-12 flexrow-c"><p class="colore">From - B!LOA</p></div>
-    <div class="col-12 flexrow-c"><p class="colore">© 2024 Video 360p. All rights reserved.</p></div>
+    <div class="col-12 flexrow-c"><p class="colore">© 2024 - 2025 Video 360p. All rights reserved.</p></div>
 </div>
 </div>
 <style>
