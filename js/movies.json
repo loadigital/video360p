@@ -1,4 +1,17 @@
 [
+     
+ {
+        "id": "718821",
+        "title": "Twisters",
+        "img": "https://image.tmdb.org/t/p/w500/4UWDVI6IleoKl9T6wHbHcqd5zAX.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/original/58D6ZAvOKxlHjyX9S8qNKSBE9Y.jpg",
+        "puntuacion": "6.9",
+        "año": "2024",
+        "genero": "53",
+        "video": "8851294915137",
+        "calidad": "HD",
+        "externo": "0"
+    },
     {
         "No": "1",
         "id": "762504",
