@@ -60,7 +60,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     const pintarPagePeliculas = data => {
 
-    data.toReversed().forEach(element => {
+    data.forEach(element => {
     
         const div_cont_cards = document.createElement("div");
         div_cont_cards.className = "cont-cards"
