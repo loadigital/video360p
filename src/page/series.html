@@ -234,7 +234,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const pintarPagePeliculas = data => {
     const similares = document.getElementById("cards-similares");
-    const newArrayNew = data.toReversed().slice(0, 4);
+    const newArrayNew = data.slice(0, 4);
     newArrayNew.forEach(element => {
 
     const card = document.createElement("div");
