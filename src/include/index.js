@@ -11,7 +11,7 @@ index.innerHTML = `
                 <div class="menu-page col-8 flexrow-de">
                     <p class="active-" data-target="#ultimas">ÚLTIMAS</p>
                     <p data-target="#tendencias">PUNTUACIÓN MAS ALTA</p>
-                    <p data-target="#estrenos">ESTRENOS 2024</p>
+                    <p data-target="#estrenos">ESTRENOS 2025</p>
                 </div>
             </div>
            
@@ -87,7 +87,7 @@ index.innerHTML = `
             return [...data].sort(() => (Math.random() > 0.5 ? 1 : -1)).slice(0, 8)
           }
           
-        const newArrayNew = data.toReversed().slice(0, 8);
+        const newArrayNew = data.slice(0, 8);
         newArrayNew.forEach(element => {
 
             const  API_URL  =  BASE_URL  +  '/movie/' + element.id + '?' + API_KEY + '&language=es-ES';//CODIGO TMBD
@@ -122,7 +122,7 @@ index.innerHTML = `
      
     })
  
-    data.toReversed().forEach(element => {
+    data.forEach(element => {
     if(element.puntuacion >= "7.9"){
     
             const  API_URL_P  =  BASE_URL  +  '/movie/' + element.id + '?' + API_KEY + '&language=es-ES';//CODIGO TMBD
@@ -158,8 +158,8 @@ index.innerHTML = `
     })
     
     
-    data.toReversed().forEach(element => {
-        if(element.año === "2024"){
+    data.forEach(element => {
+        if(element.año === "2025"){
     
             const  API_URL_A  =  BASE_URL  +  '/movie/' + element.id + '?' + API_KEY + '&language=es-ES';//CODIGO TMBD
             
@@ -209,7 +209,7 @@ index.innerHTML = `
 
     
     const pintarSeries = data => {     
-    const newJson = data.toReversed().slice(0, 8);
+    const newJson = data.slice(0, 8);
     newJson.forEach(element => {
         const cardSeriesUltimas = document.createElement("div");
     
