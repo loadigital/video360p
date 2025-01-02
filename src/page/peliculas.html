@@ -163,7 +163,7 @@ document.addEventListener('DOMContentLoaded', () => {
     
     
 const similares = document.getElementById("cards-similares");
-const newArrayNew =  data.toReversed().slice(0, 4);
+const newArrayNew =  data.slice(0, 4);
     newArrayNew.forEach(element => {
 
     const  API_URL_R  =  BASE_URL  +  '/movie/' + element.id + '?' + API_KEY + '&language=es-ES';//CODIGO TMBD
