@@ -15,20 +15,7 @@ index.innerHTML = `
                 </div>
             </div>
             <!--anuncio-->
-           <div class="main-anuncio col-12 flexrow-c">
-                <div class="anuncio">
-                    <script type="text/javascript">
-                     atOptions = {
-                    'key' : '80e25b6f0f899c81f43c01a448f2c875',
-                    'format' : 'iframe',
-                    'height' : 50,
-                    'width' : 320,
-                    'params' : {}
-                    };
-                    </script>
-                <script type="text/javascript" src="//wombjingle.com/80e25b6f0f899c81f43c01a448f2c875/invoke.js"></script>
-                </div>
-            </div>
+           
         
                 <div class="active" data-content id="ultimas">
                     <div class="co-cardss grid-1" id="co-cardss"></div>
@@ -51,20 +38,7 @@ index.innerHTML = `
         </div>
     </section>
 <!--anuncio-->
-    <div class="main-anuncio col-12 flexrow-c">
-       <div class="anuncio">
-        <script type="text/javascript">
-            atOptions = {
-                'key' : 'c64f5faab3fb00ec92b186ce10615859',
-                'format' : 'iframe',
-                'height' : 250,
-                'width' : 300,
-                'params' : {}
-            };
-        </script>
-        <script type="text/javascript" src="//wombjingle.com/c64f5faab3fb00ec92b186ce10615859/invoke.js"></script>
-       </div>
-    </div>
+    
     
     <section class="series-online col-12 flexrow-c">
         
