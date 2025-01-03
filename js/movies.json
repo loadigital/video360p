@@ -1,5 +1,16 @@
 [
-     
+ {
+        "id": "100402",
+        "title": "Capitán América: El soldado de invierno",
+        "img": "https://image.tmdb.org/t/p/w500/3Zv12uAqBxj4xAdeHeVySEQzY1o.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/original/1RWLMyC9KcFfcaoViMiJGSSZzzr.jpg",
+        "puntuacion": "7.7",
+        "año": "2014",
+        "genero": "28",
+        "video": "1IxtteVJZ9mvTDfp8gSR4ULgQr1ZCb4Xd&server=3",
+        "calidad": "HD",
+        "externo": "https://drive.google.com/file/d/1IxtteVJZ9mvTDfp8gSR4ULgQr1ZCb4Xd/preview"
+    },  
  {
         "id": "718821",
         "title": "Twisters",
