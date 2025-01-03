@@ -1,5 +1,17 @@
 [
  {
+        "id": "313369",
+        "title": "La ciudad de las estrellas (La La Land)",
+        "img": "https://image.tmdb.org/t/p/w500/7pFsAaJmiOppVHcldBzg8JKBHwe.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/original/nofXR1TN1vgGjdfnwGQwFaAWBaY.jpg",
+        "puntuacion": "7.9",
+        "año": "2016",
+        "genero": "35",
+        "video": "1KDTzTSjr9ghacBgkd_DkSk6rAjlQ7Odc&server=3",
+        "calidad": "HD",
+        "externo": "https://drive.google.com/file/d/1KDTzTSjr9ghacBgkd_DkSk6rAjlQ7Odc/preview"
+    },
+ {
         "id": "100402",
         "title": "Capitán América: El soldado de invierno",
         "img": "https://image.tmdb.org/t/p/w500/3Zv12uAqBxj4xAdeHeVySEQzY1o.jpg",
