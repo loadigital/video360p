@@ -1,5 +1,27 @@
 [
     {
+        "id": "225385",
+        "title": "Palomas negras",
+        "img": "https://image.tmdb.org/t/p/w500/nK6TdQUyGSQZ5ZFIV5ghWPqTvfP.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/original/hP5pMJfxbY9p72LgEY6j9qGidtE.jpg",
+        "puntuacion": "7.3",
+        "año": "2024",
+        "genero": "10759",
+        "video": "1lghr5Lief2ukwLNhKCeIAd5PJEqFDWmw&temp=1&cap=1&direct=3",
+        "poster": "S056"
+    },
+    {
+        "id": "93405",
+        "title": "El juego del calamar",
+        "img": "https://image.tmdb.org/t/p/w500/74qMRUy0lwkBBi39vsQVerIDkHj.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/original/2meX1nMdScFOoV4370rqHWKmXhY.jpg",
+        "puntuacion": "7.8",
+        "año": "2021",
+        "genero": "10759",
+        "video": "1UxRmcm6GqWBQUg-7PPcZYf1o6MVODykp&temp=1&cap=1&direct=3",
+        "poster": "S055"
+    },
+    {
         "No": "4",
         "id": "108545",
         "title": "El problema de los 3 cuerpos",
