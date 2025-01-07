@@ -1,5 +1,16 @@
 [
     {
+        "id": "112581",
+        "title": "La plataforma",
+        "img": "https://image.tmdb.org/t/p/w500/2Ml3WkvdpsnORrNswdNP4LpSuPB.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/original/bGMLZoRtfIY0OxtCOpZiwkUzeQl.jpg",
+        "puntuacion": "6.7",
+        "año": "2023",
+        "genero": "18",
+        "video": "1mhheQnq6cAlDTyU0XFIy6f_1abefb939&temp=1&cap=1&direct=3",
+        "poster": "S057"
+    },
+    {
         "No": "12",
         "id": "116135",
         "title": "Vikingos: Valhalla",
