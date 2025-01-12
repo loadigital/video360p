@@ -1,5 +1,65 @@
 [
     {
+        "id": "963765",
+        "title": "Extraña forma de vida",
+        "img": "https://image.tmdb.org/t/p/w500/l4tVqcsihHdss3uEvHOH8v6grGb.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/original/8J5GetxLHw6R380GUBEmH95dvrl.jpg",
+        "puntuacion": "6.4",
+        "año": "2023",
+        "genero": "18",
+        "video": "8014276922107",
+        "calidad": "720p",
+        "externo": "0"
+    },
+    {
+        "id": "1124641",
+        "title": "Red clasificada",
+        "img": "https://image.tmdb.org/t/p/w500/xuMxVxDbFwRu7466gLZdqWmJPsb.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/original/1FBHAQnq7Bs3djBmaNkfdVbnCUE.jpg",
+        "puntuacion": "5.8",
+        "año": "2024",
+        "genero": "28",
+        "video": "8043079338747",
+        "calidad": "720p",
+        "externo": "0"
+    },
+    {
+        "id": "413846",
+        "title": "1992",
+        "img": "https://image.tmdb.org/t/p/w500/qUPYV4GCGMNBgrHDX007G1fYENw.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/original/pbmlCNeOwvCqum8yvMERbgnrSr7.jpg",
+        "puntuacion": "6.8",
+        "año": "2022",
+        "genero": "80",
+        "video": "8522220178171",
+        "calidad": "720p",
+        "externo": "0"
+    },
+    {
+        "id": "811941",
+        "title": "Devara: Parte 1",
+        "img": "https://image.tmdb.org/t/p/w500/q9e5viGsiNXMpEKtr8KrL4rQmVW.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/original/3c525ZccGSwQWmF81wCHRvOQDqz.jpg",
+        "puntuacion": "7.1",
+        "año": "2024",
+        "genero": "28",
+        "video": "8836333832955",
+        "calidad": "720p",
+        "externo": "0"
+    },
+    {
+        "id": "1019404",
+        "title": "La Avispa",
+        "img": "https://image.tmdb.org/t/p/w500/cIP56aG86UFfNol6v9b87zsh6FX.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/original/vdhYbW0i11SUembpYKIzDmd5Jjw.jpg",
+        "puntuacion": "6.4",
+        "año": "2024",
+        "genero": "53",
+        "video": "8907732617979",
+        "calidad": "720p",
+        "externo": "0"
+    },
+    {
         "id": "592983",
         "title": "Hechizados",
         "img": "https://image.tmdb.org/t/p/w500/g4oArI4RmOnSDZzQbdbAm3yLNkC.jpg",
