@@ -21,6 +21,7 @@ divHeader.innerHTML = `
                     
                     <li class="btn--"  id="btn--"><a href="#" data="next"><span class="bi-collection-play-fill"></span>Genero</a>
                         <ul class="hidden" id="hidden">
+                            <li class="next"><a href="/video360p/src/genres/genero?g=28" data="next"><span class="bi-folder2-open"></span>Acción</a></li>
                             <li class="next"><a href="/video360p/src/genres/genero?g=16" data="next"><span class="bi-folder2-open"></span>Animación</a></li>
                             <li class="next"><a href="/video360p/src/genres/genero?g=12" data="next"><span class="bi-folder2-open"></span>Aventura</a></li>
                             <li class="next"><a href="/video360p/src/genres/genero?g=10752" data="next"><span class="bi-folder2-open"></span>Bélico</a></li>
@@ -35,9 +36,7 @@ divHeader.innerHTML = `
                             <li class="next"><a href="/video360p/src/genres/genero?g=9648" data="next"><span class="bi-folder2-open"></span>Misterio</a></li>
                             <li class="next"><a href="/video360p/src/genres/genero?g=10749" data="next"><span class="bi-folder2-open"></span>Romance</a></li>
                             <li class="next"><a href="/video360p/src/genres/genero?g=53" data="next"><span class="bi-folder2-open"></span>Suspenso</a></li>
-                            <li class="next"><a href="/video360p/src/genres/genero?g=27" data="next"><span class="bi-folder2-open"></span>Terror</a></li>
-                            <li class="next"><a href="/video360p/src/genres/genero?g=28" data="next"><span class="bi-folder2-open"></span>Acción</a></li>
-    
+                            <li class="next"><a href="/video360p/src/genres/genero?g=27" data="next"><span class="bi-folder2-open"></span>Terror</a></li>   
                             
                         </ul>
                     </li>                  
