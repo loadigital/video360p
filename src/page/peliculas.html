@@ -15,7 +15,7 @@
     <meta property="og:type" content="article" />
     <meta id="me-title" property="og:title" content="" />
     <meta id="me-descripcion" property="og:description" content="" />
-    <meta id="me-image" property="og:image" content="" />
+    <meta id="me-image" property="og:image" content="https://image.tmdb.org/t/p/w500/od2A7qPtpimcYfqfKXkpHqoKyuS.jpg" />
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="600">
 	
@@ -147,7 +147,7 @@ function pintar(data){
    document.querySelector("#titulo").innerHTML = data.title;
    document.getElementById("me-title").content = data.title;
    document.getElementById("me-descripcion").content = data.overview;
-   document.getElementById("me-image").content = IMG_URL + data.poster_path;
+   //document.getElementById("me-image").content = IMG_URL + data.poster_path;
     
    const resumen = document.createElement("div");
     
