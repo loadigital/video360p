@@ -12,6 +12,11 @@
     <meta charset="UTF-8">
     <link rel="shortcut icon" href="../../img/icono.png" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+    <meta id="me-title" property="og:title" content="" />
+    <meta id="me-descripcion" property="og:description" content="" />
+    <meta id="me-image" property="og:image" content="" />
+	
     <meta name="theme-color" content="#242424">
     <title id="titulo"></title>
     <link rel="stylesheet" href="../../css/libreria-1-0-1.css">
@@ -138,6 +143,9 @@ function pintar(data){
    let x = calHora(data.runtime);
 
    document.querySelector("#titulo").innerHTML = data.title;
+   document.getElementById("me-title").content = data.title;
+   document.getElementById("me-descripcion").content = data.overview;
+   document.getElementById("me-image").content = IMG_URL + data.poster_path;
     
    const resumen = document.createElement("div");
     
