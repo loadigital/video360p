@@ -1,5 +1,16 @@
 [
     {
+        "id": "215866",
+        "title": "Érase una vez el Oeste",
+        "img": "https://image.tmdb.org/t/p/w500/38ekdiOvFe04uzZbpaCPO9QhFMk.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/original/1FxG2lmDYsCM1svJf7H79HNNwu2.jpg",
+        "puntuacion": "7.7",
+        "año": "2025",
+        "genero": "37",
+        "video": "168bNFnCa3vWAsqtHeRXK5DXna_4YzraA&temp=1&cap=1&direct=3",
+        "poster": "S060"
+    },
+    {
         "id": "134865",
         "title": "Wolf Pack",
         "img": "https://image.tmdb.org/t/p/w500/rbCANmS1ogweUkIBghP03EHtdHB.jpg",
