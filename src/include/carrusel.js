@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 const fetchDatac = async () => {
    try{
-       const res = await fetch('https://loadigital.github.io/video360p/js/movies.json');
+       const res = await fetch('https://biloa.store/js/movies.json');
        const data = await res.json();
        pintarCarrusel(data);
    }catch (error) {
