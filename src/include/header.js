@@ -23,20 +23,20 @@ divHeader.innerHTML = `
                         <ul class="hidden" id="hidden">
                             <li class="next"><a href="/src/genres/genero?g=28" data="next"><span class="bi-folder2-open"></span>Acción</a></li>
                             <li class="next"><a href="/src/genres/genero?g=16" data="next"><span class="bi-folder2-open"></span>Animación</a></li>
-                            <li class="next"><a href="/video360p/src/genres/genero?g=12" data="next"><span class="bi-folder2-open"></span>Aventura</a></li>
-                            <li class="next"><a href="/video360p/src/genres/genero?g=10752" data="next"><span class="bi-folder2-open"></span>Bélico</a></li>
-                            <li class="next"><a href="/video360p/src/genres/genero?g=878" data="next"><span class="bi-folder2-open"></span>Ciencia ficción</a></li>
-                            <li class="next"><a href="/video360p/src/genres/genero?g=35" data="next"><span class="bi-folder2-open"></span>Comedia</a></li>
-                            <li class="next"><a href="/video360p/src/genres/genero?g=80" data="next"><span class="bi-folder2-open"></span>Crimen</a></li>
-                            <li class="next"><a href="/video360p/src/genres/genero?g=99" data="next"><span class="bi-folder2-open"></span>Documental</a></li>
-                            <li class="next"><a href="/video360p/src/genres/genero?g=18" data="next"><span class="bi-folder2-open"></span>Drama</a></li>
-                            <li class="next"><a href="/video360p/src/genres/genero?g=10751" data="next"><span class="bi-folder2-open"></span>Familia</a></li>
-                            <li class="next"><a href="/video360p/src/genres/genero?g=14" data="next"><span class="bi-folder2-open"></span>Fantasia</a></li>
-                            <li class="next"><a href="/video360p/src/genres/genero?g=36" data="next"><span class="bi-folder2-open"></span>Historia</a></li>
-                            <li class="next"><a href="/video360p/src/genres/genero?g=9648" data="next"><span class="bi-folder2-open"></span>Misterio</a></li>
-                            <li class="next"><a href="/video360p/src/genres/genero?g=10749" data="next"><span class="bi-folder2-open"></span>Romance</a></li>
-                            <li class="next"><a href="/video360p/src/genres/genero?g=53" data="next"><span class="bi-folder2-open"></span>Suspenso</a></li>
-                            <li class="next"><a href="/video360p/src/genres/genero?g=27" data="next"><span class="bi-folder2-open"></span>Terror</a></li>   
+                            <li class="next"><a href="/src/genres/genero?g=12" data="next"><span class="bi-folder2-open"></span>Aventura</a></li>
+                            <li class="next"><a href="/src/genres/genero?g=10752" data="next"><span class="bi-folder2-open"></span>Bélico</a></li>
+                            <li class="next"><a href="/src/genres/genero?g=878" data="next"><span class="bi-folder2-open"></span>Ciencia ficción</a></li>
+                            <li class="next"><a href="/src/genres/genero?g=35" data="next"><span class="bi-folder2-open"></span>Comedia</a></li>
+                            <li class="next"><a href="/src/genres/genero?g=80" data="next"><span class="bi-folder2-open"></span>Crimen</a></li>
+                            <li class="next"><a href="/src/genres/genero?g=99" data="next"><span class="bi-folder2-open"></span>Documental</a></li>
+                            <li class="next"><a href="/src/genres/genero?g=18" data="next"><span class="bi-folder2-open"></span>Drama</a></li>
+                            <li class="next"><a href="/src/genres/genero?g=10751" data="next"><span class="bi-folder2-open"></span>Familia</a></li>
+                            <li class="next"><a href="/src/genres/genero?g=14" data="next"><span class="bi-folder2-open"></span>Fantasia</a></li>
+                            <li class="next"><a href="/src/genres/genero?g=36" data="next"><span class="bi-folder2-open"></span>Historia</a></li>
+                            <li class="next"><a href="/src/genres/genero?g=9648" data="next"><span class="bi-folder2-open"></span>Misterio</a></li>
+                            <li class="next"><a href="/src/genres/genero?g=10749" data="next"><span class="bi-folder2-open"></span>Romance</a></li>
+                            <li class="next"><a href="/src/genres/genero?g=53" data="next"><span class="bi-folder2-open"></span>Suspenso</a></li>
+                            <li class="next"><a href="/src/genres/genero?g=27" data="next"><span class="bi-folder2-open"></span>Terror</a></li>   
                             
                         </ul>
                     </li>                  
@@ -55,15 +55,15 @@ divHeader.innerHTML = `
                     
                     <li class="btn--"><a id="btn--" href="#" data="next"><span class="bi-search"></span>Buscador...</a>
                         <ul class="hidden" id="hidden">
-                            <li class="next"><a href="/video360p/search&id=uno" data="next"><span class="bi-folder2-open"></span>Películas</a></li>
-                            <li class="next"><a href="/video360p/search&id=dos" data="next"><span class="bi-folder2-open"></span>Series</a></li>
+                            <li class="next"><a href="/search&id=uno" data="next"><span class="bi-folder2-open"></span>Películas</a></li>
+                            <li class="next"><a href="/search&id=dos" data="next"><span class="bi-folder2-open"></span>Series</a></li>
                         </ul>
                     
                     </li>
 
                     <li class="next class-mo"><a target="_blank" href="https://loadigital.github.io/video360p/app/descargarApp.html" data="next"><span class="bi-android2"></span>Descargar App</a></li>
                     <li class="next class-mo"><a target="_blank" href="https://t.me/vid360p" data="next"><span class="bi-telegram"></span>Grupo Telegram</a></li>
-                    <li class="next class-mo"><a target="_blank" href="https://loadigital.github.io/video360p/" data="next"><span class="bi-link-45deg"></span>Web Oficial</a></li>
+                    <li class="next class-mo"><a target="_blank" href="https://biloa.store/" data="next"><span class="bi-link-45deg"></span>Web Oficial</a></li>
                     <li class="next class-mo"><a  href="#" data="next"><span class="bi-gear-fill"></span>Versión 0.4</a></li>
                 </div>
                 
