@@ -5,7 +5,7 @@ divHeader.innerHTML = `
 <header>
     
     <div class="menu_bar">
-        <div class="bt-menu"><img src="https://loadigital.github.io/video360p/img/LOGO12.png" alt=""><span class="bi-list" id="menu_bar"></span></div>
+        <div class="bt-menu"><img src="https://biloa.store/img/LOGO12.png" alt=""><span class="bi-list" id="menu_bar"></span></div>
      </div>
         
         <nav>
@@ -14,15 +14,15 @@ divHeader.innerHTML = `
                 <div class="contenedor_list flexrow-c col-12">
                     <a class="flexrow-c a-lo" href="#" data="next"><img class="img-logo" src="https://loadigital.github.io/video360p/img/LOGO12.png" alt=""></a>
                     
-                    <li class="next"><a href="https://loadigital.github.io/video360p/" data="next"><span class="bi-house"></span>Inicio</a></li>
+                    <li class="next"><a href="https://biloa.store/" data="next"><span class="bi-house"></span>Inicio</a></li>
             
-                    <li class="next"><a href="/video360p/peliculas" data="next"><span class="bi-cone-striped"></span>Películas</a></li>
-                    <li class="next"><a href="/video360p/series" data="next"><span class="bi-tv"></span>Series</a></li>
+                    <li class="next"><a href="/peliculas" data="next"><span class="bi-cone-striped"></span>Películas</a></li>
+                    <li class="next"><a href="/series" data="next"><span class="bi-tv"></span>Series</a></li>
                     
                     <li class="btn--"  id="btn--"><a href="#" data="next"><span class="bi-collection-play-fill"></span>Genero</a>
                         <ul class="hidden" id="hidden">
-                            <li class="next"><a href="/video360p/src/genres/genero?g=28" data="next"><span class="bi-folder2-open"></span>Acción</a></li>
-                            <li class="next"><a href="/video360p/src/genres/genero?g=16" data="next"><span class="bi-folder2-open"></span>Animación</a></li>
+                            <li class="next"><a href="/src/genres/genero?g=28" data="next"><span class="bi-folder2-open"></span>Acción</a></li>
+                            <li class="next"><a href="/src/genres/genero?g=16" data="next"><span class="bi-folder2-open"></span>Animación</a></li>
                             <li class="next"><a href="/video360p/src/genres/genero?g=12" data="next"><span class="bi-folder2-open"></span>Aventura</a></li>
                             <li class="next"><a href="/video360p/src/genres/genero?g=10752" data="next"><span class="bi-folder2-open"></span>Bélico</a></li>
                             <li class="next"><a href="/video360p/src/genres/genero?g=878" data="next"><span class="bi-folder2-open"></span>Ciencia ficción</a></li>
