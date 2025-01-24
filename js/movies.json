@@ -1,5 +1,41 @@
 [
   {
+        "id": "939243",
+        "title": "Sonic 3: La película",
+        "img": "https://image.tmdb.org/t/p/w500/3aDWCRXLYOCuxjrjiPfLd79tcI6.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/original/b85bJfrTOSJ7M5Ox0yp4lxIxdG1.jpg",
+        "puntuacion": "7.8",
+        "año": "2024",
+        "genero": "28",
+        "video": "1L7HZVjyGNvawoKhDT9T3rlRAcM3RXi41&server=3",
+        "calidad": "HD",
+        "externo": "https://drive.google.com/file/d/1L7HZVjyGNvawoKhDT9T3rlRAcM3RXi41/preview"
+    },
+    {
+        "id": "675353",
+        "title": "Sonic 2, la película",
+        "img": "https://image.tmdb.org/t/p/w500/sJiHVM0A3OXDVxl4Z6a7ihMPHfm.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/original/lrP1TQf3stZveNEyviUUcSh8HLA.jpg",
+        "puntuacion": "7.5",
+        "año": "2022",
+        "genero": "28",
+        "video": "1ErVMXWtSz7zmVHtzTaUQI_ZFVSxF5OOK&server=3",
+        "calidad": "HD",
+        "externo": "https://drive.google.com/file/d/1ErVMXWtSz7zmVHtzTaUQI_ZFVSxF5OOK/preview"
+    },
+    {
+        "id": "454626",
+        "title": "Sonic: La película",
+        "img": "https://image.tmdb.org/t/p/w500/rK25c71fYVi0Bv7RrTChK7NAQjC.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/original/9V81UUI5MlRYgDCfK5E8iqi0eYM.jpg",
+        "puntuacion": "7.3",
+        "año": "2020",
+        "genero": "28",
+        "video": "1d_PmkKXin3J3Hm4p0k-47SLaL86N8N2g&server=3",
+        "calidad": "HD",
+        "externo": "https://drive.google.com/file/d/1d_PmkKXin3J3Hm4p0k-47SLaL86N8N2g/preview"
+    },
+  {
         "id": "1387198",
         "title": "Amor a 39 grados",
         "img": "https://image.tmdb.org/t/p/w500/9vcohEsWqLlFtDANavII0Webhdu.jpg",
