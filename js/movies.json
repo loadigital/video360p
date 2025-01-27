@@ -1,5 +1,29 @@
 [
   {
+        "id": "993710",
+        "title": "De vuelta a la acción",
+        "img": "https://image.tmdb.org/t/p/w500/mAvyQ2X3767LwXE2htvAd22ucd3.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/original/xZm5YUNY3PlYD1Q4k7X8zd2V4AK.jpg",
+        "puntuacion": "6.7",
+        "año": "2025",
+        "genero": "28",
+        "video": "9407452285528",
+        "calidad": "720p",
+        "externo": "0"
+    },
+    {
+        "id": "1114894",
+        "title": "Star Trek: Section 31",
+        "img": "https://image.tmdb.org/t/p/w500/bx9btF0Jo4rRF68xny7VPqHNt3z.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/original/3SOunz2Z0qcOVlrkYFj20HquziB.jpg",
+        "puntuacion": "4.6",
+        "año": "2025",
+        "genero": "878",
+        "video": "9407396579928",
+        "calidad": "720p",
+        "externo": "0"
+    },
+  {
         "id": "426063",
         "title": "Nosferatu",
         "img": "https://image.tmdb.org/t/p/w500/jT9xDRGD9lg0b4LSqbrdgAyicd5.jpg",
