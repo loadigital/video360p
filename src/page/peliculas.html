@@ -18,19 +18,101 @@
     <link rel="stylesheet" href="../../css/style.css">
     <link rel="stylesheet" href="https://loadigital.github.io/movies.biloa/icon/bootstrap-icons.css">
     <script src="https://loadigital.github.io/movies.biloa/js/jquery.js"></script>
-    
-
     <script src="../../js/api.js"></script>
-   
-    <style>
-        #container{display: none;}
-        .co-link{width: 100%;height: auto;display: flex;flex-direction: row;flex-wrap: wrap;justify-content: center;}
-        .co-link a{ width: 100%;height: auto;display: flex;flex-direction: row;flex-wrap: wrap;justify-content: center;margin: 7px;text-decoration:none;}
-        .bot-1{background:#dc7612;padding: 7px;border-radius: 5px 5px;font-family: Arial;border: none;}
-        .bi-cloud-arrow-down, .bi-play-circle, .bi-telegram {font-size: 20px;color:#fff;}
-        .co-link p{margin-top: 10px;text-align:justify;}
-        
-        #ver{background:#000;}
+<style>
+ #container{display: none;}
+.co-link{width: 100%;height: auto;display: flex;flex-direction: row;flex-wrap: wrap;justify-content: center;}
+.co-link a{ width: 100%;height: auto;display: flex;flex-direction: row;flex-wrap: wrap;justify-content: center;margin: 7px;text-decoration:none;}
+.bot-1{background:#dc7612;padding: 7px;border-radius: 5px 5px;font-family: Arial;border: none;}
+.bi-cloud-arrow-down, .bi-play-circle, .bi-telegram {font-size: 20px;color:#fff;}
+.co-link p{margin-top: 10px;text-align:justify;}
+#ver{background:#000;}
+.main-anuncios{
+  width: 100%;
+  height:100%;
+  display: none;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  border:solid 0px red;
+  position: fixed;
+  background: rgb(138, 43, 226, 0.3);
+  padding: 10px;
+  z-index: 201;
+}
+.content-btn-x button{
+    font-size: 18px;
+    color: #fff;
+}
+.content-iframe-anuncio{
+  width: 80%;
+  height:80%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px;
+  background: #fff;
+  border-radius: 5px 5px;
+  
+}
+.content-inframe{
+  width: 100%;
+  height:100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px;
+  overflow: hidden;
+}
+.content-inframe iframe{
+    background: #fff;
+    
+}
+.capa-iframe{
+    width: 1024;
+    height:450px;
+    background: rgb(138, 43, 226, 0.0);
+    z-index: 200;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.text-aviso{
+    width: 90%;
+    background: #ebd408;
+    height:30px;
+    border-radius: 3px 3px;
+    padding:5px;
+}
+.text-aviso p{
+    font-size: 16px;
+    color: #000;
+}
+@media only screen and (max-width: 768px) {
+    .content-iframe-anuncio{
+        width: 100%;
+        height:90%;
+    }
+    .capa-iframe{
+    width: 90%;
+    height:200px;
+    }
+
+    .text-aviso{
+    width: 100%;
+    height:40px;
+    
+    }
+    .text-aviso p{
+    font-size: 12px;
+    text-align:center;
+    
+    }
+}      
         
         
 </style>
@@ -110,7 +192,21 @@
 </section>
 
 </main>
-
+<!--modal-->
+<div class="main-anuncios" id="x-main">
+    <div class="content-btn-x col-12 flexrow-c" id="content-btn-x">
+    
+        <button id="time" class="bot-1"></button>
+        
+    </div>
+    <div class="content-iframe-anuncio">
+        
+        <div class="content-inframe">
+        <iframe name="insertPage"  src="#" allowfullscreen style=" top:0px; left:0px; bottom:0px; right:0px; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; ">  </iframe> 
+        </div>
+    </div>
+    
+    </div>
 <script>
 
 let idAPI = url_vlr.get('id');
@@ -259,6 +355,65 @@ if (element.externo != "0" && element.externo != "" ) {
 })
 
 }
+//modal
+var control = 20;
+
+function times() {
+
+	document.getElementById("time").innerHTML = "Por favor espera " +  control + " Segundos";
+
+	if(control == 0) {
+
+		document.getElementById("time").style.display="none"
+	}else{
+		control--;
+		setTimeout("times()",1000);
+	}
+}
+
+
+var segundos = 20;
+
+function start() {
+    segundos = 20;
+    id = setInterval('cronometro()', 1000)
+    
+}
+function stop() {
+    window.clearInterval(id);
+}
+function cronometro(){
+    
+    if (segundos == 0) {
+        document.getElementById("content-btn-x").innerHTML = `
+        <button id="x-anuncio" class="bot-1 bi-x-square" > Cerrar Anuncio</button>
+        `
+        xanuncio()
+        
+    }
+    segundos--;
+    
+}
+
+
+function xanuncio() {
+  document.getElementById("x-anuncio").addEventListener("click", ()=>{
+	document.getElementById("x-main").style.display="none";
+    window.open('#' ,  target="insertPage")
+    document.getElementById('content-btn-x').innerHTML = '';
+    stop()
+    });
+
+}
+
+document.querySelector(".capa-1").addEventListener("click", ()=>{
+    document.querySelector(".capa-1").style.display="none";
+    document.getElementById("x-main").style.display="flex";
+	window.open('https://casketembody.com/qzzhjhuf?key=b8bf3bd8f6b18d65f5a79c8aaccedd5c' ,  target="insertPage")
+    start()
+    times()
+    var id = setInterval('cronometro()', 1000);
+    });
 
 </script>
 <script type="module" src="../../js/main.js"></script>
@@ -266,7 +421,7 @@ if (element.externo != "0" && element.externo != "" ) {
 
 <div id="scalar"></div>
 
-<script type='text/javascript' src='//casketembody.com/20/bc/68/20bc682e27aaf56cf3fdada8207f0a2b.js'></script>
+
 </body>
 </html>
 
