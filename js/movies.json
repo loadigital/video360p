@@ -1,5 +1,29 @@
 [
   {
+        "id": "7442",
+        "title": "Durmiendo con su enemigo",
+        "img": "https://image.tmdb.org/t/p/w500/6fIYQGOAMWEOhzfgHuPjRtJfdtI.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/original/apUbdi4nGrD5VGIaxErtpsn7ST8.jpg",
+        "puntuacion": "6.5",
+        "año": "1991",
+        "genero": "18",
+        "video": "6498640333320",
+        "calidad": "720p",
+        "externo": "0"
+    },
+    {
+        "id": "114",
+        "title": "Pretty Woman",
+        "img": "https://image.tmdb.org/t/p/w500/iKaKr8aUqOy1aojENu5XuwBI8Uj.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/original/fnzUCnVicAGymR7Nhrs75QfrZzQ.jpg",
+        "puntuacion": "7.5",
+        "año": "1990",
+        "genero": "10749",
+        "video": "9401084021420",
+        "calidad": "720p",
+        "externo": "0"
+    },
+  {
         "id": "2623",
         "title": "Oficial y caballero",
         "img": "https://image.tmdb.org/t/p/w500/jzVYFPiAgu3zRd5QSEEddChlVEE.jpg",
