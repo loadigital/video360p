@@ -1,5 +1,53 @@
 [
   {
+        "id": "1063877",
+        "title": "No te muevas",
+        "img": "https://image.tmdb.org/t/p/w500/5qqzdbfdp7LBL56WRW0RmSoEm12.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/original/yGjpT94EoeGQQh1vQ1KEXAQnGoB.jpg",
+        "puntuacion": "6.4",
+        "año": "2024",
+        "genero": "27",
+        "video": "7822175308420",
+        "calidad": "720p",
+        "externo": "0"
+    },
+    {
+        "id": "18892",
+        "title": "Caramelo asesino",
+        "img": "https://image.tmdb.org/t/p/w500/yUdkn57AcZJCBiO74D9xQYq99Bm.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/original/bZ7ZMu8lGuEKmwH5lXRhlJAjYWv.jpg",
+        "puntuacion": "6.3",
+        "año": "1999",
+        "genero": "35",
+        "video": "7935161666180",
+        "calidad": "HD",
+        "externo": "0"
+    },
+    {
+        "id": "209189",
+        "title": "Vidas criminales",
+        "img": "https://image.tmdb.org/t/p/w500/bXv0lbJGNsXGXclMwUakP5vpFJg.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/original/zxxIzU6XjzTQKS9pPeLmYTDTFL1.jpg",
+        "puntuacion": "5.7",
+        "año": "2013",
+        "genero": "35",
+        "video": "7972308585092",
+        "calidad": "720p",
+        "externo": "0"
+    },
+    {
+        "id": "395992",
+        "title": "Life (Vida)",
+        "img": "https://image.tmdb.org/t/p/w500/nDx6JMz9ODHaKGBrbMa4GKJjJLm.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/original/nNh7vHHISVAaziJEqAq0P9iL52w.jpg",
+        "puntuacion": "6.4",
+        "año": "2017",
+        "genero": "27",
+        "video": "7496698169988",
+        "calidad": "720p",
+        "externo": "0"
+    },
+  {
         "id": "1241982",
         "title": "Vaiana 2",
         "img": "https://image.tmdb.org/t/p/w500/tqiHuhjw1WSj9Qr0InJ21AgMrKu.jpg",
