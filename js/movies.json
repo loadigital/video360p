@@ -1,5 +1,29 @@
 [
   {
+        "id": "1241982",
+        "title": "Vaiana 2",
+        "img": "https://image.tmdb.org/t/p/w500/tqiHuhjw1WSj9Qr0InJ21AgMrKu.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/original/zo8CIjJ2nfNOevqNajwMRO6Hwka.jpg",
+        "puntuacion": "7.2",
+        "año": "2024",
+        "genero": "16",
+        "video": "1rLtX66ooOvm6H6G8KBkKqCmtKKss-MGu&server=3",
+        "calidad": "HD",
+        "externo": "https://drive.google.com/file/d/1rLtX66ooOvm6H6G8KBkKqCmtKKss-MGu/preview"
+    },
+    {
+        "id": "277834",
+        "title": "Vaiana",
+        "img": "https://image.tmdb.org/t/p/w500/y6wkgEH1gTWAafH9Bc7cNNut0Kf.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/original/iYLKMV7PIBtFmtygRrhSiyzcVsF.jpg",
+        "puntuacion": "7.6",
+        "año": "2016",
+        "genero": "12",
+        "video": "1ZJUJt2bXRI0wlqq6IJb39SF3yJGUjZUk&server=3",
+        "calidad": "HD",
+        "externo": "https://drive.google.com/file/d/1ZJUJt2bXRI0wlqq6IJb39SF3yJGUjZUk/preview"
+    },
+  {
         "id": "539972",
         "title": "Kraven the Hunter",
         "img": "https://image.tmdb.org/t/p/w500/ytmJ11n9gm34D1v56myjTxMaEDJ.jpg",
