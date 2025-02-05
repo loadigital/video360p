@@ -46,7 +46,7 @@ divHeader.innerHTML = `
                         <ul class="hidden" id="hidden">
         
                             <li class="next"><a target="_blank" href="https://loadigital.github.io/video360p/app/descargarApp.html" data="next"><span class="bi-android2"></span>Descargar App</a></li>
-                            <li class="next"><a target="_blank" href="https://t.me/vid360p" data="next"><span class="bi-telegram"></span>Grupo Telegram</a></li>
+                            <li class="next"><a target="_blank" href="https://t.me/video_360p" data="next"><span class="bi-telegram"></span>Canal Telegram</a></li>
                             <li class="next"><a target="_blank" href="https://loadigital.github.io/video360p/" data="next"><span class="bi-link-45deg"></span>Web Oficial</a></li>
                             <li class="next"><a  href="#" data="next"><span class="bi-gear-fill"></span>Versión 0.4</a></li>
                         </ul>
@@ -62,7 +62,7 @@ divHeader.innerHTML = `
                     </li>
 
                     <li class="next class-mo"><a target="_blank" href="https://loadigital.github.io/video360p/app/descargarApp.html" data="next"><span class="bi-android2"></span>Descargar App</a></li>
-                    <li class="next class-mo"><a target="_blank" href="https://t.me/vid360p" data="next"><span class="bi-telegram"></span>Grupo Telegram</a></li>
+                    <li class="next class-mo"><a target="_blank" href="https://t.me/video_360p" data="next"><span class="bi-telegram"></span>Canal Telegram</a></li>
                     <li class="next class-mo"><a target="_blank" href="https://biloa.store/" data="next"><span class="bi-link-45deg"></span>Web Oficial</a></li>
                     <li class="next class-mo"><a  href="#" data="next"><span class="bi-gear-fill"></span>Versión 0.4</a></li>
                 </div>
