@@ -350,6 +350,18 @@ if (element.externo != "0" && element.externo != "" ) {
     document.getElementById("descarga").href = "http://video360p.byethost4.com/descarga.php?id=" +  element.video + '&t=' + element.title;
     
 }
+function copy() {
+        var input = document.createElement("input");
+        input.setAttribute("value", 'https://mo-video360p.blogspot.com/2025/02/peliculas.html?e=' + element.id);
+        document.body.appendChild(input);
+        input.select();
+        document.execCommand("copy");
+        document.body.removeChild(input);
+}
+
+document.querySelector(".ocul").addEventListener("click", ()=>{
+    copy();
+})
 
 }
 })
