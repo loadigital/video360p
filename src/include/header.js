@@ -81,7 +81,7 @@ header.appendChild(divHeader);
 let parametro = new URL(document.location).searchParams;
 let existe = parametro.get('id');
 
-if (existe == null) {
+if (existe !== null) {
     document.querySelector(".oculto").style.display = "none";
 }else{
     document.querySelector(".oculto").style.display = "flex";
