@@ -48,7 +48,7 @@ divHeader.innerHTML = `
                             <li class="next"><a target="_blank" href="https://loadigital.github.io/video360p/app/descargarApp.html" data="next"><span class="bi-android2"></span>Descargar App</a></li>
                             <li class="next"><a target="_blank" href="https://t.me/video_360p" data="next"><span class="bi-telegram"></span>Canal Telegram</a></li>
                             <li class="next"><a target="_blank" href="https://loadigital.github.io/video360p/" data="next"><span class="bi-link-45deg"></span>Web Oficial</a></li>
-                            <li class="next oculto"><a class="ocul-0 ocul" href="#" data="next"><span class="bi-stickies"></span>Copy Link</a></li>
+                            <li class="next oculto-0"><a class="ocul-0 ocul" href="#" data="next"><span class="bi-stickies"></span>Copy Link</a></li>
                             <li class="next"><a  href="#" data="next"><span class="bi-gear-fill"></span>Versión 0.4</a></li>
                         </ul>
                     
@@ -65,7 +65,7 @@ divHeader.innerHTML = `
                     <li class="next class-mo"><a target="_blank" href="https://loadigital.github.io/video360p/app/descargarApp.html" data="next"><span class="bi-android2"></span>Descargar App</a></li>
                     <li class="next class-mo"><a target="_blank" href="https://t.me/video_360p" data="next"><span class="bi-telegram"></span>Canal Telegram</a></li>
                     <li class="next class-mo"><a target="_blank" href="https://biloa.store/" data="next"><span class="bi-link-45deg"></span>Web Oficial</a></li>
-                    <li class="next class-mo oculto"><a class="ocul-1 ocul" href="#" data="next"><span class="bi-stickies"></span>Copy Link</a></li>
+                    <li class="next class-mo oculto-1"><a class="ocul-1 ocul" href="#" data="next"><span class="bi-stickies"></span>Copy Link</a></li>
                     <li class="next class-mo"><a  href="#" data="next"><span class="bi-gear-fill"></span>Versión 0.4</a></li>
                 </div>
                 
@@ -81,10 +81,12 @@ header.appendChild(divHeader);
 let parametro = new URL(document.location).searchParams;
 let existe = parametro.get('id');
 
-if (existe !== null) {
-    document.querySelector(".oculto").style.display = "none";
+if (existe == null) {
+    document.querySelector(".oculto-0").style.display = "none";
+    document.querySelector(".oculto-1").style.display = "none";
 }else{
-    document.querySelector(".oculto").style.display = "flex";
+    document.querySelector(".oculto-0").style.display = "flex";
+    document.querySelector(".oculto-1").style.display = "flex";
 }
 
 let ocul_0 = document.querySelector(".ocul-0")
