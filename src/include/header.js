@@ -84,6 +84,9 @@ let existe = parametro.get('id');
 if (existe == null) {
     document.querySelector(".oculto-0").style.display = "none";
     document.querySelector(".oculto-1").style.display = "none";
+}if (screen.width > 800){
+    document.querySelector(".oculto-0").style.display = "flex";
+    document.querySelector(".oculto-1").style.display = "none";
 }else{
     document.querySelector(".oculto-0").style.display = "flex";
     document.querySelector(".oculto-1").style.display = "flex";
