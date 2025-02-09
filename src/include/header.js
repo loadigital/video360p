@@ -65,7 +65,7 @@ divHeader.innerHTML = `
                     <li class="next class-mo"><a target="_blank" href="https://loadigital.github.io/video360p/app/descargarApp.html" data="next"><span class="bi-android2"></span>Descargar App</a></li>
                     <li class="next class-mo"><a target="_blank" href="https://t.me/video_360p" data="next"><span class="bi-telegram"></span>Canal Telegram</a></li>
                     <li class="next class-mo"><a target="_blank" href="https://biloa.store/" data="next"><span class="bi-link-45deg"></span>Web Oficial</a></li>
-                    <li class="next class-mo oculto-1"><a class="ocul-1 ocul" href="#" data="next"><span class="bi-stickies"></span>Copy Link</a></li>
+                    <li class="next oculto-1 class-mo"><a class="ocul-1 ocul" href="#" data="next"><span class="bi-stickies"></span>Copy Link</a></li>
                     <li class="next class-mo"><a  href="#" data="next"><span class="bi-gear-fill"></span>Versión 0.4</a></li>
                 </div>
                 
