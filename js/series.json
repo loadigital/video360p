@@ -1,20 +1,14 @@
 [
     {
-        "id": "S062",
-        "temporadas":"1",
-        "temporada1":[
-                        "1Emlg6-BWirhWSN_uuMDewTSadOWVaiVL&temp=1&cap=1&direct=3",
-                        "1iQhaDeGI1ZYeL6QMrMZ2C2oLgXgu-zpR&temp=1&cap=2&direct=3",
-                        "1w2DjQBdAjnqxdSeMy0YcaCoXSXo0QULn&temp=1&cap=3&direct=3",
-                        "1jK5_zYZbEMeJaaiOXtRdGNP_imAEzjVE&temp=1&cap=4&direct=3",
-                        "1oxrWkAFOWAmhUHnx1evVv2JnBwHI_Luw&temp=1&cap=5&direct=3",
-                        "1mWVhMEZRwW1F1jblfXPCynUYAmer3oAJ&temp=1&cap=6&direct=3",
-                        "1GYByOljVp6HtFYArs2HC2UIzfKcV1A_h&temp=1&cap=7&direct=3",
-                        "1SNRcmPkgU9OQG0bfUe8LraNmAcf0D6mc&temp=1&cap=8&direct=3",
-                        "1Gh1B4R_ZnJ9Nmah0E6-ATzKRj313oHtc&temp=1&cap=9&direct=3"
-                                                                
-                     ]
-                         
+        "id": "100088",
+        "title": "The Last of Us",
+        "img": "https://image.tmdb.org/t/p/w500/tNQWO6cNzQYCyvw36mUcAQQyf5F.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/original/lY2DhbA7Hy44fAKddr06UrXWWaQ.jpg",
+        "puntuacion": "8.6",
+        "año": "2023",
+        "genero": "18",
+        "video": "1Emlg6-BWirhWSN_uuMDewTSadOWVaiVL&temp=1&cap=1&direct=3",
+        "poster": "S062"
     },
     {
         "id": "236429",
