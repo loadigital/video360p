@@ -1,5 +1,53 @@
 [
   {
+        "id": "606856",
+        "title": "Togo",
+        "img": "https://image.tmdb.org/t/p/w500/921q4gPNN4J6UxvKaw6SCNBe3F8.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/original/2Jr2OBzoLLOYqQWnyN4eicZv0sL.jpg",
+        "puntuacion": "8.1",
+        "año": "2019",
+        "genero": "12",
+        "video": "1ftmAmwUvrbJ3nUGMgOq6Kqs7U-_zDq_h&server=3",
+        "calidad": "720p",
+        "externo": "https://drive.google.com/file/d/1ftmAmwUvrbJ3nUGMgOq6Kqs7U-_zDq_h/preview"
+    },
+    {
+        "id": "753601",
+        "title": "Los Buscamundos",
+        "img": "https://image.tmdb.org/t/p/w500/kqLhRxIjBbWG83PLcQWUGd1gNF3.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/original/ghSMYISXNxjduDuvzYoPYOI3yRk.jpg",
+        "puntuacion": "5.8",
+        "año": "2021",
+        "genero": "16",
+        "video": "1Ns9sUUHs5b-CafzVyhepU3ghn4ACJuQ3&server=3",
+        "calidad": "720p",
+        "externo": "https://drive.google.com/file/d/1Ns9sUUHs5b-CafzVyhepU3ghn4ACJuQ3/preview"
+    },
+    {
+        "id": "631842",
+        "title": "Llaman a la puerta",
+        "img": "https://image.tmdb.org/t/p/w500/4Zna9CvyzaAgejsErmyXmHC64Dd.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/original/zWDMQX0sPaW2u0N2pJaYA8bVVaJ.jpg",
+        "puntuacion": "6.3",
+        "año": "2023",
+        "genero": "27",
+        "video": "1WZixVJ63LHZo5Doi6Tung8ynkhwKSwpP&server=3",
+        "calidad": "720p",
+        "externo": "https://drive.google.com/file/d/1WZixVJ63LHZo5Doi6Tung8ynkhwKSwpP/preview"
+    },
+    {
+        "id": "1261501",
+        "title": "Ad Vitam",
+        "img": "https://image.tmdb.org/t/p/w500/xqBSapk1nC35WlZ6PraMjOVMQBy.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/original/dMloNvayweggmvv0UD0iOJIkkbH.jpg",
+        "puntuacion": "6.3",
+        "año": "2025",
+        "genero": "53",
+        "video": "1V_LZvs0G-25ZjcJvlZN_0dtB8JIePlLC&server=3",
+        "calidad": "720p",
+        "externo": "https://drive.google.com/file/d/1V_LZvs0G-25ZjcJvlZN_0dtB8JIePlLC/preview"
+    },
+  {
         "id": "720321",
         "title": "Respira",
         "img": "https://image.tmdb.org/t/p/w500/oujEGO5eXnP8PsFRPJHZfUzlKFK.jpg",
