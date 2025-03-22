@@ -130,11 +130,11 @@ document.addEventListener('DOMContentLoaded', () => {
         card.innerHTML += `
         <div class="card">
             <div class="card-img">
-                <a href="${linkMovies + element.id + '&v_id=' + element.video + '&cal=' + element.calidad}"><img class="img-card" src="${IMG_URL + data.poster_path}" alt=""></a>
+                <a href="${linkMovies + element.id + '&v_id=' + element.video + '&cal=' + element.calidad}"><img class="img-card" src="${element.img}" alt=""></a>
             </div>
             <div class="card-body">
            
-            <div class="title-card"><h1>${data.title}</h1></div>
+            <div class="title-card"><h1>${element.title}</h1></div>
             
             </div>
         </div> 
