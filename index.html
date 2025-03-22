@@ -147,7 +147,8 @@
             return [...data].sort(() => (Math.random() > 0.5 ? 1 : -1)).slice(0, 8)
           }
           
-        const newArrayNew = data.slice(0, 8);
+        //const newArrayNew = data.slice(0, 8);
+	 const newArrayNew = pintar(data);
         newArrayNew.forEach(element => {
 
             const  API_URL  =  BASE_URL  +  '/movie/' + element.id + '?' + API_KEY + '&language=es-ES';//CODIGO TMBD
