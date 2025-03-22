@@ -6,14 +6,14 @@ divHeader.innerHTML = `
 <header>
     
     <div class="menu_bar">
-        <div class="bt-menu"><img src="${lin} + '/img/LOGO12.png'" alt=""><span class="bi-list" id="menu_bar"></span></div>
+        <div class="bt-menu"><img src="${lin}/img/LOGO12.png" alt=""><span class="bi-list" id="menu_bar"></span></div>
      </div>
         
         <nav>
             <ul class="ul-main">
                 
                 <div class="contenedor_list flexrow-c col-12">
-                    <a class="flexrow-c a-lo" href="#" data="next"><img class="img-logo" src="https://loadigital.github.io/video360p/img/LOGO12.png" alt=""></a>
+                    <a class="flexrow-c a-lo" href="#" data="next"><img class="img-logo" src="${lin}/img/LOGO12.png" alt=""></a>
                     
                     <li class="next"><a href="${lin}" data="next"><span class="bi-house"></span>Inicio</a></li>
             
