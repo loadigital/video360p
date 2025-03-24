@@ -16,7 +16,7 @@ divHeader.innerHTML = `
                     <a class="flexrow-c a-lo" href="#" data="next"><img class="img-logo" src="${lin}/img/LOGO12.png" alt=""></a>
                     
                     <li class="next"><a href="${lin}" data="next"><span class="bi-house"></span>Inicio</a></li>
-            
+                    <li class="next"><a href="${lin}/src/page/tv" data="next"><span class="bi-tv-fill"></span>TV En vivo</a></li>
                     <li class="next"><a href="/peliculas" data="next"><span class="bi-cone-striped"></span>Películas</a></li>
                     <li class="next"><a href="/series" data="next"><span class="bi-tv"></span>Series</a></li>
                     
@@ -43,14 +43,14 @@ divHeader.innerHTML = `
                     </li>                  
                     
 
-                    <li class="btn-- class-web"><a id="btn--" href="#" data="next"><span class="bi-three-dots-vertical"></span>Mas Opciones</a>
+                    <li class="btn-- class-web"><a id="btn--" href="#" data="next"><span class="bi-three-dots-vertical"></span>Mas</a>
                         <ul class="hidden" id="hidden">
         
                             <li class="next"><a target="_blank" href="https://loadigital.github.io/video360p/app/descargarApp.html" data="next"><span class="bi-android2"></span>Descargar App</a></li>
                             <li class="next"><a target="_blank" href="https://t.me/video_360p" data="next"><span class="bi-telegram"></span>Canal Telegram</a></li>
                             <li class="next"><a target="_blank" href="${lin}" data="next"><span class="bi-link-45deg"></span>Web Oficial</a></li>
                             <li class="next oculto-0"><a class="ocul-0 ocul" href="#" data="next"><span class="bi-stickies"></span>Copy Link</a></li>
-                            <li class="next"><a  href="#" data="next"><span class="bi-gear-fill"></span>Versión 0.4</a></li>
+                            <li class="next"><a  href="#" data="next"><span class="bi-gear-fill"></span>Versión 0.6</a></li>
                         </ul>
                     
                     </li>
@@ -67,7 +67,7 @@ divHeader.innerHTML = `
                     <li class="next class-mo"><a target="_blank" href="https://t.me/video_360p" data="next"><span class="bi-telegram"></span>Canal Telegram</a></li>
                     <li class="next class-mo"><a target="_blank" href="${lin}" data="next"><span class="bi-link-45deg"></span>Web Oficial</a></li>
                     <li class="next oculto-1 class-mo"><a class="ocul-1 ocul" href="#" data="next"><span class="bi-stickies"></span>Copy Link</a></li>
-                    <li class="next class-mo"><a  href="#" data="next"><span class="bi-gear-fill"></span>Versión 0.4</a></li>
+                    <li class="next class-mo"><a  href="#" data="next"><span class="bi-gear-fill"></span>Versión 0.6</a></li>
                 </div>
                 
             </ul>
