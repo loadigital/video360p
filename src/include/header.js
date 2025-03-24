@@ -82,7 +82,7 @@ header.appendChild(divHeader);
 let parametro = new URL(document.location).searchParams;
 let existe = parametro.get('id');
 
-if (existe == null) {
+if (existe !== null) {
     document.querySelector(".oculto-0").style.display = "none";
     document.querySelector(".oculto-1").style.display = "none";
 }if (screen.width > 800){
