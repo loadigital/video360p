@@ -1,0 +1,206 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="../../img/icono.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">	
+    <meta name="theme-color" content="#242424">
+    <title>TV En vivo</title>
+    <link rel="stylesheet" href="../../css/libreria-1-0-1.css">
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="https://loadigital.github.io/movies.biloa/icon/bootstrap-icons.css">
+    <script src="https://loadigital.github.io/movies.biloa/js/jquery.js"></script>
+    <script src="../../js/api.js"></script>
+<style>
+
+.cont-cards{
+    display: block;
+    background: #925e33;
+    border-radius: 7px 7px;
+}
+.cards{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: #fff;
+    height: 100px;
+    margin: 3px 3px;
+    
+}
+
+.title-cards{
+    width: 100%;
+    max-width: 520px;
+    
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    font-size: 20px;
+    font-family: Arial Narrow; 
+    letter-spacing: 0.10em;
+    border: solid 0px #fff;
+    background: rgb(220, 118, 18, 0.3);
+    border-bottom: solid 1px #141414;
+    padding: 7px;
+    border-radius: 7px 7px;
+   
+}
+
+.title-cards:hover{
+    background: #533012;
+    
+}
+.title-cards a{
+    text-decoration: none;
+    color: #969292;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.title-cards img{
+    width: 100%;
+    max-width: 80px;
+    height: auto;
+    margin-right: 10px;
+    border-radius: 3px 3px;
+}
+.title-cards p{
+    width: 100%;
+    border: solid 0px #920000;
+    text-align: left;
+    font-size: 28px;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+.bi-arrow-right-short{
+    font-size: 28px;
+    color: #fff;
+}
+
+
+
+
+@media screen and (max-width: 800px){
+  
+    .title-cards{
+        width: 90%;
+        font-size: 16px;
+    }
+    .cards{
+        margin-bottom: 0px;
+    }
+   
+}
+
+</style>
+
+</head>
+<body>
+<div id="loading"></div>
+<div id="include-header"></div>
+<main id="main--">
+<section style="padding: 0px;" id="section-class" class="section-class col-12 flexrow-c" >
+<div class="contenedor-video col-12 flexrow-c" id="video--">
+        
+    <div class="contenedor-iframe col-12 flexrow-c" style="align-items: flex-start;">
+        <iframe id="ver" name="tv_" src="" frameborder=0 marginwidth=0 marginheight=0 scrolling=no width=720 height=460 allowfullscreen allow="autoplay" ></iframe>
+    </div>
+    
+</div>
+ <div class="flexrow-c col-12"><h1>Lista de Canales</h1></div>
+<div class="cont-cards flexrow-c col-8" id="tv"></div>
+ 
+
+ <div class="col-12" id="footer" style="display: none;"></div>
+</section>
+
+</main>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+        fetchData();
+    });
+    
+    const fetchData = async () => {
+       try{
+           const res = await fetch('../../js/tv.json');
+           const data = await res.json();
+           tv(data);
+       }catch (error) {
+           console.log(error);
+       }
+    }
+    const tv = data => {
+        let item = 100;
+        data.forEach(element => {
+        const tv = document.getElementById("tv");   
+        var url_video = window.base =btoa(element.iptv);
+        var post = window.base =btoa(element.logo);
+        document.getElementById("ver").src = "https://canalesiptvs.blogspot.com/2025/03/embed.html?url=" + url_video + "&post=" + post;
+        tv.innerHTML +=`
+        <div class="co-cards">
+        <div class="cards">
+         <div class="title-cards" ><a id="bot-arriba"  class="boton-arriba" target="tv_" href="https://canalesiptvs.blogspot.com/2025/03/embed.html?url=${url_video + "&post=" + post}">
+            <img src="${element.logo}" alt=""> 
+            <p>${item +=1} ${element.title}</p>
+            <i class="bi-arrow-right-short"></i>
+           
+         </a></div>
+        </div>
+        </div>
+        
+        `
+            
+        });
+
+const botArriba_ = document.querySelectorAll('#bot-arriba');
+let subArriba_ = true;
+for (let i = 0; i < botArriba_.length; i++){
+    botArriba_[i].addEventListener("click", function(){
+        if (botArriba_[i].classList.contains("boton-arriba")){
+            console.log(botArriba_.length)
+            window.scrollTo(0, 0);
+            subArriba_ = false;
+        } else{
+            window.scrollTo(0, 0);
+            subArriba_ = true;
+        };
+    });
+};
+    
+};
+
+
+/*
+function copy() {
+        var input = document.createElement("input");
+        input.setAttribute("value", 'https://mo-video360p.blogspot.com/2025/02/peliculas.html?e=' + element.id);
+        document.body.appendChild(input);
+        input.select();
+        document.execCommand("copy");
+        document.body.removeChild(input);
+}
+
+document.querySelector(".ocul").addEventListener("click", ()=>{
+    copy();
+})
+*/
+
+
+
+</script>
+<script type="module" src="../../js/main.js"></script>
+<script type="module" src="../../js/libreria-1-0-1.js"></script>
+
+<div id="scalar"></div>
+
+
+</body>
+</html>
+
