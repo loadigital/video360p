@@ -1,0 +1,95 @@
+[
+    
+    
+    {
+        "title": "ITV Deportes",
+        "logo": "https://yt3.googleusercontent.com/hdd0DEFAdRpAM51UyOTfeB8wvH__2hTd4yZ0X8KoRkyR-nPEopxvgGXz57P1r8UQVx9_wPLURQ=s900-c-k-c0x00ffffff-no-rj",
+        "iptv": "https://thm-it-roku.otteravision.com/thm/it/it.m3u8"
+    },
+    {
+        "title": "CDN Deporte",
+        "logo": "https://es.trefoil.tv/uploads/posts/2023-10/cdn-deportes.webp",
+        "iptv": "https://rtmp-live-ingest-us-east-1-universe-dacast-com.akamaized.net/transmuxv1/streams/bc949011-1dd8-4d10-596c-f6910d4a9cf7.m3u8"
+    },
+    {
+        "title": "Cine Dios",
+        "logo": "https://img.freepik.com/vector-gratis/corazon-cruz-religiosa_78370-7413.jpg",
+        "iptv": "https://canal.mediaserver.com.co/live/cinedios.m3u8"
+    },
+    {
+        "title": "Cine Sony",
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQClt_U8epAX-uHmgsYlhRehkcJK0B2iMIk-Q&s",
+        "iptv": "https://a-cdn.klowdtv.com/live1/cine_720p/playlist.m3u8"
+    },
+    {
+        "title": "MovieFe",
+        "logo": "https://www.vivalivetv.com/public/files/shows/0/1/3438-294x165-FFFFFF.jpg",
+        "iptv": "https://vcp.myplaytv.com/moviefe/moviefe/playlist.m3u8"
+    },
+    {
+        "title": "MyTime movie network",
+        "logo": "https://yt3.googleusercontent.com/_IYldBaqPlDzVmhupfTuZlXegDoAw8cxmK54WY7vjPaTQwEh49Bco2D4lhlZ36cDy_VPv3zROw=s900-c-k-c0x00ffffff-no-rj",
+        "iptv": "https://appletree-mytimespain-rakuten.amagi.tv/playlist.m3u8"
+    },
+    {
+        "title": "Next HD",
+        "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgE0I4KajDcoWZQsZCt91bcf5N6yeAa45Ms35e5SaRICJ5cWOIAS1NCArtaUcbnipTFby-lnemBcnnGLxRXdbOZuJUAMYoxenUQA4TuSabhfdO5ixAaFN-ilwkWt1Wr5NaSFymdyStu7TuIyK5MrnXce0pK6NGIq2Ds2Eb2-Hb97Jo6ybDA3BPBV-oD/s1600/next-hd.png",
+        "iptv": "https://live.enhdtv.com:19360/nexthd/nexthd.m3u8"
+    },
+    {
+        "title": "Atresplayer Multicine",
+        "logo": "https://yt3.googleusercontent.com/mlBnus5FacB-G16VaVbYnPYaTUFSocBGH1ms-L8IdblIom7tcIFJm-mvznpKBbqd7kEpfpFoStA=s900-c-k-c0x00ffffff-no-rj",
+        "iptv": "https://fast-channels.atresmedia.com/648ef18c1756b0e41daf83cc/648ef18c1756b0e41daf83cc.m3u8"
+    },
+    {
+        "title": "Señal Colombia",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Se%C3%B1al_Colombia_logo.svg/1200px-Se%C3%B1al_Colombia_logo.svg.png",
+        "iptv": "https://streaming.rtvc.gov.co/TV_Senal_Colombia_live/smil:live.smil/playlist.m3u8"
+    },
+    {
+        "title": "Canal 1",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Channel_1_%28Colombia%29_-_2017_logo.svg/512px-Channel_1_%28Colombia%29_-_2017_logo.svg.png",
+        "iptv": "https://mdstrm.com/live-stream-playlist/5a5e1c2568b1910913db5fe2.m3u8"
+    },
+    {
+        "title": "RCN Más",
+        "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg1gHVqvv0mgv7uTpTJ7OebOH7Ldsi_AHisgqlOzJZ7UekQ2GoKHal2O2Mu3Jc9LXTJIzjU161-A_52arYN-uS6hpfcO1U4JxfjpNN8bBMeTbP4SinrENCEOJ2mqRsF2p94KuN_3zSzPph3/s1366/rcnmas.jpg",
+        "iptv": "https://rcntv-rcnmas-1-us.plex.wurl.tv/playlist.m3u8"
+    },
+    {
+        "title": "13 Teleseries",
+        "logo": "https://directostv.teleame.com/wp-content/uploads/2022/09/13-Teleseries-en-vivo-Online.png",
+        "iptv": "https://origin.dpsgo.com/ssai/event/f4TrySe8SoiGF8Lu3EIq1g/master.m3u8"
+    },
+    {
+        
+        "title": "Asiri TV",
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTr2Xf7aRkkfKCULcp9BIdjbegQoy3se4x8bA&s",
+        "iptv": "https://video2.lhdserver.es/asiritv/live.m3u8"
+     
+    },
+    {
+        
+        "title": "Caracol Noticias",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Caracol_Televisi%C3%B3n_logo.svg/512px-Caracol_Televisi%C3%B3n_logo.svg.png",
+        "iptv": "https://mdstrm.com/live-stream-playlist/632391734be92a791e2750e6.m3u8"
+        
+        
+    },
+    {
+        
+        "title": "Kanal D Drama",
+        "logo": "https://kanalddrama.com/assets/img/logo_bottom2.png",
+        "iptv": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01602-themahqfrance-vivekanald-samsungspain/playlist.m3u8"
+        
+    },
+    {
+        
+        "title": "Aurora Media Films",
+        "logo": "https://tvguatemala.net/wp-content/uploads/2022/10/Aurora-Media-Films-Guatemala.webp",
+        "iptv": "https://cdn.streamhispanatv.net:3417/live/auroramflive.m3u8"
+                
+    }
+    
+    
+]
