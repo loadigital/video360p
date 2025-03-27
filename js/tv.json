@@ -1,6 +1,35 @@
 [
     
-    
+    {
+        "title": "Flooxer",
+        "logo": "https://www.marketingdirecto.com/wp-content/uploads/2023/03/Flooxer.jpg",
+        "iptv": "https://fast-channels.atresmedia.com/5c1285e47ed1a861f8125285/5c1285e47ed1a861f8125285.m3u8"
+    },
+    {
+        "title": "Atresplayer Comedia",
+        "logo": "https://elgeneracionalpost.com/wp-content/uploads/2023/06/portada-atresplayer.jpg",
+        "iptv": "https://fast-channels.atresmedia.com/648ef23d2bfab0e4557e0d61/648ef23d2bfab0e4557e0d61.m3u8"
+    },
+    {
+        "title": "El Club de la Comedia",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/El_Club_de_la_Comedia.svg/800px-El_Club_de_la_Comedia.svg.png",
+        "iptv": "https://fast-channels.atresmedia.com/648f47f7a2ffb0e40aeff3ad/648f47f7a2ffb0e40aeff3ad.m3u8"
+    },
+    {
+        "title": "Activa TV",
+        "logo": "https://mytunein.com/images/logos/activatvhn.jpg",
+        "iptv": "https://videoserver.tmcreativos.com:19360/mbcrtzxnxd/mbcrtzxnxd.m3u8"
+    },
+    {
+        "title": "504 tv",
+        "logo": "https://image.roku.com/developer_channels/prod/ff3ad7e6f5d9d3d57a4887bef3c0d30063b8d10f00484f5e6be227ef2cfd7b5b.png",
+        "iptv": "https://mediacp.us:8081/504tvhn/index.m3u8"
+    },
+    {
+        "title": "101tv",
+        "logo": "https://directostv.teleame.com/wp-content/uploads/2024/03/101-TV-MALAGA-EN-DIRECTO.png",
+        "iptv": "https://www.streaming101tv.es:19360/axarquia/axarquia.m3u8"
+    },
     {
         "title": "ITV Deportes",
         "logo": "https://yt3.googleusercontent.com/hdd0DEFAdRpAM51UyOTfeB8wvH__2hTd4yZ0X8KoRkyR-nPEopxvgGXz57P1r8UQVx9_wPLURQ=s900-c-k-c0x00ffffff-no-rj",
@@ -32,9 +61,9 @@
         "iptv": "https://appletree-mytimespain-rakuten.amagi.tv/playlist.m3u8"
     },
     {
-        "title": "Next HD",
-        "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgE0I4KajDcoWZQsZCt91bcf5N6yeAa45Ms35e5SaRICJ5cWOIAS1NCArtaUcbnipTFby-lnemBcnnGLxRXdbOZuJUAMYoxenUQA4TuSabhfdO5ixAaFN-ilwkWt1Wr5NaSFymdyStu7TuIyK5MrnXce0pK6NGIq2Ds2Eb2-Hb97Jo6ybDA3BPBV-oD/s1600/next-hd.png",
-        "iptv": "https://live.enhdtv.com:19360/nexthd/nexthd.m3u8"
+        "title": "13C",
+        "logo": "https://cdn.rudo.video/assets/canal-13/live/live_c4f42eb211fbfc790b25e14dd3aecd0a1739894784.png",
+        "iptv": "https://origin.dpsgo.com/ssai/event/GI-9cp_bT8KcerLpZwkuhw/master.m3u8"
     },
     {
         "title": "Atresplayer Multicine",
