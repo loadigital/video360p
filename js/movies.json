@@ -1,5 +1,41 @@
 [
    {
+        "id": "898859",
+        "title": "Mañana Antes Después",
+        "img": "https://image.tmdb.org/t/p/w500/uQ8Drd3GbNDHQy9eqAxHVbkCRXn.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/original/40TMMp9uIywq2vEZWsU6RTDvDTH.jpg",
+        "puntuacion": "7.5",
+        "año": "2023",
+        "genero": "18",
+        "video": "1-meOaZz38Az6WBNA5MBo6srbGZWQjKjX&server=3",
+        "calidad": "HD",
+        "externo": "https://mo.biloa.site/v/f1ZAsgVjM3NapDJ"
+    },
+    {
+        "id": "63207",
+        "title": "Intruders",
+        "img": "https://image.tmdb.org/t/p/w500/erGjRCwzKOGHxJ32fR5ObGYtBBK.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/original/5xkUNp36OqJLm7ERfVIEinZrxQW.jpg",
+        "puntuacion": "5.5",
+        "año": "2011",
+        "genero": "53",
+        "video": "15fyvTMoPCKFv008r5laKPts_IUWaChZ0&server=3",
+        "calidad": "HD",
+        "externo": "https://mo.biloa.site/v/tD1IdIGJeoOTmh3"
+    },
+    {
+        "id": "257094",
+        "title": "Holland",
+        "img": "https://image.tmdb.org/t/p/w500/39jIr3A4ScUeGxFdMeARYKNxTgU.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/original/3xN4vNPWBSVDsiiOzL5sB95Sa1J.jpg",
+        "puntuacion": "5.8",
+        "año": "2025",
+        "genero": "53",
+        "video": "1w3pzvkAIxcWRIWDbzK2b9bNX_pw9csOx&server=3",
+        "calidad": "HD",
+        "externo": "https://mo.biloa.site/v/QA3jQ7cgrABN0Ja"
+    },
+   {
         "id": "1145725",
         "title": "Duplicidad, de Tyler Perry",
         "img": "https://image.tmdb.org/t/p/w500/k4fJun2pJ70BBFMgGAZddk3m7sg.jpg",
