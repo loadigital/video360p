@@ -1,5 +1,41 @@
 [
    {
+        "id": "1145725",
+        "title": "Duplicidad, de Tyler Perry",
+        "img": "https://image.tmdb.org/t/p/w500/k4fJun2pJ70BBFMgGAZddk3m7sg.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/original/qSh3Aav8Kcoe2D2Azr8Bh1J0HAa.jpg",
+        "puntuacion": "6.8",
+        "año": "2025",
+        "genero": "53",
+        "video": "1dXeuneQNHVZEkqRyMu2gJ6QWcSZSFAV1&server=3",
+        "calidad": "HD",
+        "externo": "https://mo.biloa.site/v/SyVPo9VsaW0GxhR"
+    },
+    {
+        "id": "1418522",
+        "title": "Delicia",
+        "img": "https://image.tmdb.org/t/p/w500/rzaHDRtLwveEC3hsA3q2PKMTjye.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/original/6iU9A1TtZKFB8222erj0UD0iYYn.jpg",
+        "puntuacion": "4.6",
+        "año": "2025",
+        "genero": "53",
+        "video": "1xSB5aqqJghZ4682KzFN0hilch-GjBOxQ&server=3",
+        "calidad": "HD",
+        "externo": "https://mo.biloa.site/v/Y6D51UnvpvCW4JN"
+    },
+    {
+        "id": "1097549",
+        "title": "Babygirl",
+        "img": "https://image.tmdb.org/t/p/w500/fCCZlnzf6yEGGO9UEdVADRVvfhM.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/original/hctfNoMpQGfn3VXdBYb9p0P5bT5.jpg",
+        "puntuacion": "5.8",
+        "año": "2024",
+        "genero": "18",
+        "video": "1TQ7SBV1E5BPGYTgpgBSFMfT13OWd3JQy&server=3",
+        "calidad": "HD",
+        "externo": "https://mo.biloa.site/v/CKXVeeJbG6aBc0s"
+    },
+   {
         "id": "431111",
         "title": "King s Gambit",
         "img": "https://image.tmdb.org/t/p/w500/2uvF6BMRXpHM1K5rVSXpqdLkBvD.jpg",
