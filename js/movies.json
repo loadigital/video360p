@@ -1,5 +1,53 @@
 [
    {
+        "id": "1084199",
+        "title": "La acompañante",
+        "img": "https://image.tmdb.org/t/p/w500/dZR98C2Tzefugivw21yEfYvp1G9.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/original/9p2tVEEWw1M92Pt63Vbq7EjBpvk.jpg",
+        "puntuacion": "7.1",
+        "año": "2025",
+        "genero": "35",
+        "video": "9147774077691",
+        "calidad": "HD",
+        "externo": "https://mo.biloa.site/v/bmy0fW7HvyacUkw"
+    },
+    {
+        "id": "1203905",
+        "title": "La Clínica",
+        "img": "https://image.tmdb.org/t/p/w500/8hAheU9vsfD2U6YEVMAHv1Gx9zL.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/original/uMbigm2zSNBptyRUmVyto1PrbLm.jpg",
+        "puntuacion": "3.7",
+        "año": "2023",
+        "genero": "9648",
+        "video": "9150056303169",
+        "calidad": "HD",
+        "externo": "https://mo.biloa.site/v/Z2VFMLzmEvtxRKu"
+    },
+    {
+        "id": "959092",
+        "title": "La venganza del dragón",
+        "img": "https://image.tmdb.org/t/p/w500/f6LjYf36p6xaLw7Ia9eDS0hqQtk.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/original/dSbHiA9m62FhQxiSZoJmhzKlmZD.jpg",
+        "puntuacion": "6.7",
+        "año": "2023",
+        "genero": "28",
+        "video": "9154390985281",
+        "calidad": "HD",
+        "externo": "https://mo.biloa.site/v/pg669mLSi13wpoX"
+    },
+    {
+        "id": "1126166",
+        "title": "Amenaza en el aire",
+        "img": "https://image.tmdb.org/t/p/w500/8T6nkYb4W8BIeafmFffyfsRciTL.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/original/gFFqWsjLjRfipKzlzaYPD097FNC.jpg",
+        "puntuacion": "6.1",
+        "año": "2025",
+        "genero": "28",
+        "video": "9157999856193",
+        "calidad": "HD",
+        "externo": "https://mo.biloa.site/v/7JKuTWlOSabCuMZ"
+    },
+   {
         "id": "898859",
         "title": "Mañana Antes Después",
         "img": "https://image.tmdb.org/t/p/w500/uQ8Drd3GbNDHQy9eqAxHVbkCRXn.jpg",
