@@ -1,4 +1,64 @@
 [
+   {
+        "id": "10718",
+        "title": "Torque: Rodando al límite",
+        "img": "https://image.tmdb.org/t/p/w500/kjk5FQWR9NNYiMBHz99hcSoW7ct.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/original/uocLm6jLQTN6o1VKi1qOKuD9TSg.jpg",
+        "puntuacion": "5.3",
+        "año": "2004",
+        "genero": "28",
+        "video": "8411034356404",
+        "calidad": "HD",
+        "externo": "2eFoOQFgE0wV8Ul"
+    },
+    {
+        "id": "1644",
+        "title": "Secuestrada",
+        "img": "https://image.tmdb.org/t/p/w500/fzy1nzHAzl2rJPlbtWvfsqPxfqS.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/original/ker1eyGYk5eIIPiveZYGHaW9aZ5.jpg",
+        "puntuacion": "6.1",
+        "año": "1993",
+        "genero": "53",
+        "video": "9693151627956",
+        "calidad": "HD",
+        "externo": "rXkULnoH4l8lTwr"
+    },
+    {
+        "id": "13442",
+        "title": "Zig Zag",
+        "img": "https://image.tmdb.org/t/p/w500/banS7PwPh1X6Xt3ZcW6e9tAMRyu.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/original/vJPt0k5yWlnfbiph8PU0sQqqwqa.jpg",
+        "puntuacion": "5.9",
+        "año": "2002",
+        "genero": "18",
+        "video": "9696339298996",
+        "calidad": "HD",
+        "externo": "tlG4WKhigBrygHu"
+    },
+    {
+        "id": "20187",
+        "title": "Licencia para matar",
+        "img": "https://image.tmdb.org/t/p/w500/ycvgMXmW3zAIHhRHuVlHp9n19a6.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/original/2fao0EDChNM0naadJs75IUeLHkY.jpg",
+        "puntuacion": "6.1",
+        "año": "1975",
+        "genero": "28",
+        "video": "9802208185012",
+        "calidad": "HD",
+        "externo": "yGUptXAtoEpUzgZ"
+    },
+    {
+        "id": "728949",
+        "title": "Canina",
+        "img": "https://image.tmdb.org/t/p/w500/z9iXgha64p1UQeDu2ApKV4KYRRM.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/original/jvFj4V2C6fQziMhOzCYdeW2vEbS.jpg",
+        "puntuacion": "5.8",
+        "año": "2024",
+        "genero": "35",
+        "video": "9000948206331",
+        "calidad": "HD",
+        "externo": "vH2gXAciOvSe47X"
+    },
     {
         "id": "1084199",
         "title": "La acompañante",
