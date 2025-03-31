@@ -338,8 +338,13 @@ data.forEach(element =>{
 if (element.id == id) {
 
 if (element.externo != "0" && element.externo != "" ) {
-    document.getElementById("ver").src = element.externo;
-    document.getElementById("descarga").href = "http://video360p.byethost4.com/descarga.php?id=" +  element.video + '&t=' + element.title;
+   if (element.externo[5] != ":") {
+        document.getElementById("ver").src = "https://mo.biloa.site/v/" + element.externo;
+        document.getElementById("descarga").href = "http://video360p.byethost4.com/descarga.php?id=" +  element.video + '&t=' + element.title;
+    }else{
+        document.getElementById("ver").src = element.externo;
+        document.getElementById("descarga").href = "http://video360p.byethost4.com/descarga.php?id=" +  element.video + '&t=' + element.title;
+    }
 }else if (cal === "null" || cal === "nulls") {
     document.getElementById("ver").src = "https://loadigital.github.io/movies.biloa/archivo%20no%20disponible.html";
     document.getElementById("descarga").href = "https://loadigital.github.io/movies.biloa/archivo%20no%20disponible.html";
