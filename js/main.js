@@ -90,16 +90,7 @@ document.querySelector("#loading").innerHTML = `
     <div id="loader-wrapper">
         <div id="preloader"></div>
     </div>
-.content-menu-f{background: #242424;position: fixed;bottom: 0px;display: none;z-index: 999;}
-.menu-f .m-f a{color: #fff; text-decoration: none; font-size: 14px;}
-.menu-f .m-f a:hover{color: #dc7612}
-    .m-f{width: 33.33%;}
-    @media (max-width:800px){
-        .content-menu-f{
-        display: flex;
-        }
-    
-}
+
 `
 
 document.querySelector("#scalar").innerHTML = `
