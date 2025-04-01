@@ -96,7 +96,7 @@ document.querySelector("#loading").innerHTML = `
 document.querySelector("#scalar").innerHTML = `
 
 <style>
-        .scalar{position:fixed;bottom:40px;z-index:9;right:20px;padding: 2px 10px;color: #fff;font-size: 30px;border-radius: 20px;}
+        .scalar{position:fixed;bottom:50px;z-index:9;right:20px;padding: 2px 10px;color: #fff;font-size: 30px;border-radius: 20px;}
         .scalar .bi-arrow-up-circle-fill{color: #ffffff; font-size: 50px;}
         .scalar .bi-arrow-up-circle-fill:hover{color: #dc7612;cursor: pointer;}
 </style>
