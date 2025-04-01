@@ -90,13 +90,22 @@ document.querySelector("#loading").innerHTML = `
     <div id="loader-wrapper">
         <div id="preloader"></div>
     </div>
-
+.content-menu-f{background: #242424;position: fixed;bottom: 0px;display: none;z-index: 999;}
+.menu-f .m-f a{color: #fff; text-decoration: none; font-size: 14px;}
+.menu-f .m-f a:hover{color: #dc7612}
+    .m-f{width: 33.33%;}
+    @media (max-width:800px){
+        .content-menu-f{
+        display: flex;
+        }
+    
+}
 `
 
 document.querySelector("#scalar").innerHTML = `
 
 <style>
-        .scalar{position:fixed;bottom:20px;z-index:9;right:20px;padding: 2px 10px;color: #fff;font-size: 30px;border-radius: 20px;}
+        .scalar{position:fixed;bottom:40px;z-index:9;right:20px;padding: 2px 10px;color: #fff;font-size: 30px;border-radius: 20px;}
         .scalar .bi-arrow-up-circle-fill{color: #ffffff; font-size: 50px;}
         .scalar .bi-arrow-up-circle-fill:hover{color: #dc7612;cursor: pointer;}
 </style>
