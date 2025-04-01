@@ -16,7 +16,7 @@ document.querySelector("#loading").innerHTML = `
 	z-index: 1000;
 	background: #0c111f
     }
-
+ 
     #preloader {
 	display: block;
 	position: relative;
