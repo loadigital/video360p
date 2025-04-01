@@ -74,6 +74,13 @@ divHeader.innerHTML = `
         </nav>
 </header>
 
+<div class="content-menu-f flexrow-c col-12">
+<div class="menu-f flexrow-c col-12">
+    <div class="m-f flexrow-c"><a href="${lin}/peliculas"><span class="bi-cone-striped"></span> Películas</a></div>
+    <div class="m-f flexrow-c"><a href="${lin}/src/page/tv"><span class="bi-tv-fill"></span> TV En vivo</a></div>
+    <div class="m-f flexrow-c"><a href="${lin}/series"><span class="bi-tv"></span> Series</a></div>
+</div>
+</div>
 
 `
 
