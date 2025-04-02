@@ -1,5 +1,67 @@
 [
    {
+        "id": "9411",
+        "title": "Fallen",
+        "img": "https://image.tmdb.org/t/p/w300/a1XpImrbzKGJvoYJB8NeZJ4ZDhu.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/original/tQcZse6duoXJSvkTL1rskgjyFsO.jpg",
+        "puntuacion": "6.8",
+        "año": "1998",
+        "genero": "80",
+        "video": "8828908341891",
+        "calidad": "HD",
+        "externo": "t6F3EQZcvwVwrL6"
+    },
+    {
+        "id": "1191605",
+        "title": "Una muerte silenciosa",
+        "img": "https://image.tmdb.org/t/p/w500/dfxVkV5vFZmgnR2zzoj6virotwB.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/original/5zVa0nkfygTcyNMlezxA7tAcuBL.jpg",
+        "puntuacion": "6.7",
+        "año": "2025",
+        "genero": "80",
+        "video": "1IsuN9R1sUjCH0Y_yhdzP46ve7KDG_u73&server=3",
+        "calidad": "HD",
+        "externo": "https://drive.google.com/file/d/1IsuN9R1sUjCH0Y_yhdzP46ve7KDG_u73/preview"
+    },
+    
+    {
+        "id": "1216780",
+        "title": "Tonterías de amor",
+        "img": "https://image.tmdb.org/t/p/w500/nAI8kxnjQS0YBj0EBy2yYkadM6K.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/original/lFz7HFWLmBVoa7kITzWEsT9tsEL.jpg",
+        "puntuacion": "5.9",
+        "año": "2025",
+        "genero": "10749",
+        "video": "1nWqT_5O84YO2OPqMfc3FaEJZXyrGwTUn&server=3",
+        "calidad": "HD",
+        "externo": "https://drive.google.com/file/d/1nWqT_5O84YO2OPqMfc3FaEJZXyrGwTUn/preview"
+    },
+    {
+        "id": "1210938",
+        "title": "Revelación",
+        "img": "https://image.tmdb.org/t/p/w500/wYLUqqlteOFBZkHClr4nmcc48FA.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/original/ujtLvjVCBpgouQTyEG4qNVTxlXi.jpg",
+        "puntuacion": "6.4",
+        "año": "2025",
+        "genero": "53",
+        "video": "1B0HU4H8QX62ZesrAxBaoJxV5aaP3tcEf&server=3",
+        "calidad": "HD",
+        "externo": "https://drive.google.com/file/d/1B0HU4H8QX62ZesrAxBaoJxV5aaP3tcEf/preview"
+    },
+    
+    {
+        "id": "1204892",
+        "title": "Imagínatelo",
+        "img": "https://image.tmdb.org/t/p/w500/ke6Awqk7WembxYHifay7ujOjXwJ.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/original/8JqwRue6rKwj2j8Ous9zifmtwvW.jpg",
+        "puntuacion": "6.1",
+        "año": "2025",
+        "genero": "10749",
+        "video": "1H1HCbtq6KCf0VLCo57ktoO4zQBJsCw4P&server=3",
+        "calidad": "HD",
+        "externo": "https://drive.google.com/file/d/1H1HCbtq6KCf0VLCo57ktoO4zQBJsCw4P/preview"
+    },
+   {
         "id": "10718",
         "title": "Torque: Rodando al límite",
         "img": "https://image.tmdb.org/t/p/w500/kjk5FQWR9NNYiMBHz99hcSoW7ct.jpg",
