@@ -1,5 +1,15 @@
 [
     {
+        "title": "FreeTV Familia",
+        "logo": "https://www.freecast.com/_next/image?url=https%3A%2F%2Fd3e3bui7xn67l.cloudfront.net%2Fcms_media%2Fmedia%2Flive%2Fchannel%2Fcf935835-f4b2-4d0a-8bf3-1c7f0c684ecb-1707856500.87097.256x256.png&w=256&q=75",
+        "iptv": "https://amg01024-olympusat-juntos-ono-ad-h5.amagi.tv/playlist/amg01024-olympusat-juntos-ono/playlist.m3u8"
+    },
+    {
+        "title": "FreeTV Drama",
+        "logo": "https://www.freecast.com/_next/image?url=https%3A%2F%2Fd3e3bui7xn67l.cloudfront.net%2Fcms_media%2Fmedia%2Flive%2Fchannel%2Fbc1ba35f-b802-4af0-8681-44f288491bd5-1707856407.578725.256x256.png&w=256&q=75",
+        "iptv": "https://amg01024-olympusat-cinereallatam-ono-ad-z5.amagi.tv/playlist/amg01024-olympusat-cinereallatam-ono/playlist.m3u8"
+    },
+    {
         "title": "FreeTV Acción",
         "logo": "https://provider-static.plex.tv/epg/cms/production/f133133e-92a3-4bc0-b626-21f029d0b152/FreeTVAccion_Circle_1500x1000_-_Ralph_Campillo.png",
         "iptv": "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01024-olympusat-topcinelatam-ono/playlist.m3u8"
