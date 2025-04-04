@@ -1,5 +1,10 @@
 [
-    
+    {
+        "title": "FreeTV Acción",
+        "logo": "https://provider-static.plex.tv/epg/cms/production/f133133e-92a3-4bc0-b626-21f029d0b152/FreeTVAccion_Circle_1500x1000_-_Ralph_Campillo.png",
+        "iptv": "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01024-olympusat-topcinelatam-ono/playlist.m3u8"
+    },
+
     {
         "title": "Flooxer",
         "logo": "https://www.marketingdirecto.com/wp-content/uploads/2023/03/Flooxer.jpg",
@@ -16,9 +21,9 @@
         "iptv": "https://fast-channels.atresmedia.com/648f47f7a2ffb0e40aeff3ad/648f47f7a2ffb0e40aeff3ad.m3u8"
     },
     {
-        "title": "Activa TV",
-        "logo": "https://mytunein.com/images/logos/activatvhn.jpg",
-        "iptv": "https://videoserver.tmcreativos.com:19360/mbcrtzxnxd/mbcrtzxnxd.m3u8"
+        "title": "FreeTV Terror",
+        "logo": "https://provider-static.plex.tv/epg/cms/production/38736fa9-095c-47b6-82f6-b9585e9c5adb/FreeTVHorror_Circle_1500x1000_-_Ralph_Campillo.png",
+        "iptv": "https://amg01024-olympusat-horrorfy-ono-ad-ky.amagi.tv/playlist/amg01024-olympusat-horrorfy-ono/playlist.m3u8"
     },
     {
         "title": "504 tv",
