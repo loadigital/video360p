@@ -1,5 +1,18 @@
 [
   {
+           "No": "669",
+           "id": "762441",
+           "title": "Un lugar tranquilo: D\u00eda uno",
+           "img": "https://image.tmdb.org/t/p/w500/jGOi939xU8BDRfAAhN6eiTSf3H8.jpg",
+           "backdrop": "https://image.tmdb.org/t/p/original/6XjMwQTvnICBz6TguiDKkDVHvgS.jpg",
+           "puntuacion": "6.9",
+           "a\u00f1o": "2024",
+           "genero": "27",
+           "video": "12FCZcocMWwseTqGX0jub9Sp5fCuoCI2d&server=3",
+           "calidad": "HD",
+           "externo": "https://drive.google.com/file/d/12FCZcocMWwseTqGX0jub9Sp5fCuoCI2d/preview"
+       },
+  {
         "id": "491418",
         "title": "Familia al instante",
         "img": "https://image.tmdb.org/t/p/w300/ndgZRvynFdrYCjrny2vULiaCpI2.jpg",
@@ -9316,19 +9329,7 @@
            "calidad": "HD",
            "externo": "https://filemoon.sx/e/n0fhw580j46s"
        },
-       {
-           "No": "669",
-           "id": "762441",
-           "title": "Un lugar tranquilo: D\u00eda uno",
-           "img": "https://image.tmdb.org/t/p/w500/jGOi939xU8BDRfAAhN6eiTSf3H8.jpg",
-           "backdrop": "https://image.tmdb.org/t/p/original/6XjMwQTvnICBz6TguiDKkDVHvgS.jpg",
-           "puntuacion": "6.9",
-           "a\u00f1o": "2024",
-           "genero": "27",
-           "video": "7798851242584",
-           "calidad": "HD",
-           "externo": "0"
-       },
+       
        {
            "No": "670",
            "id": "412656",
