@@ -1,5 +1,10 @@
 [
     {
+        "title": "Sony Canal Novelas",
+        "logo": "https://static.wikia.nocookie.net/dreamlogos/images/e/ef/Sony_Telenovelas.svg/revision/latest/scale-to-width-down/280?cb=20220403004504",
+        "iptv": "https://a89829b8dca2471ab52ea9a57bc28a35.mediatailor.us-east-1.amazonaws.com/v1/master/0fb304b2320b25f067414d481a779b77db81760d/CanelaTV_SonyCanalNovelas/playlist.m3u8"
+    },
+    {
         "title": "FOX Spots",
         "logo": "https://play-lh.googleusercontent.com/0R5MXYkN1Kh5EGBDEWdxOTO7DGlQpOM64K6YrusGF-ixKM6qH8-GjBgmQg390ssG8w",
         "iptv": "https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,Fox-Sports-Espanol2.m3u8"
