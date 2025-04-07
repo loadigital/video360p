@@ -1,5 +1,67 @@
 [
-  {
+    {
+        "id": "6312",
+        "title": "El pacto de los lobos",
+        "img": "https://image.tmdb.org/t/p/w300/6PRA3eIFsOBv1RZIHBMG58TKqHG.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/original/9C6DUuw0jtrZBTEKnVigXoKoBQw.jpg",
+        "puntuacion": "6.7",
+        "año": "2001",
+        "genero": "12",
+        "video": "8187048757891",
+        "calidad": "HD",
+        "externo": "LKV3kOHIpH4G2Ll"
+    },
+    {
+        "id": "1226578",
+        "title": "Longlegs",
+        "img": "https://image.tmdb.org/t/p/w300/e4686PPqj8AOdTUnGZpjApT1cDi.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/original/bizhlTVjifYQUu4Xrdt7m3TYr7d.jpg",
+        "puntuacion": "6.6",
+        "año": "2024",
+        "genero": "80",
+        "video": "8908280236675",
+        "calidad": "HD",
+        "externo": "lw9Fs1iRQaIkLSZ"
+    },
+    {
+        "id": "1208808",
+        "title": "Turno nocturno",
+        "img": "https://image.tmdb.org/t/p/w300/iSSx9Bys64vlOkvkyKXtp19P7Re.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/original/o5vasl0xbZWWKQnAlaBTSgntHH2.jpg",
+        "puntuacion": "6.1",
+        "año": "2024",
+        "genero": "27",
+        "video": "8971471227523",
+        "calidad": "HD",
+        "externo": "Iien57rH9cJ6d6w"
+    },
+    {
+        "No": "112",
+        "id": "1005772",
+        "title": "La aldea maldita",
+        "img": "https://image.tmdb.org/t/p/w500/xGZQXf2oDYvLQegwWPvvnx8Jcmw.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/original/bUhFtAwSJu3JKWRlLTLrZdAiRkE.jpg",
+        "puntuacion": "6.8",
+        "a\u00f1o": "2022",
+        "genero": "27",
+        "video": "7466977659481",
+        "calidad": "HD",
+        "externo": "LzuhKoCKeCc3UjN"
+    },
+    {
+        "No": "264",
+        "id": "840326",
+        "title": "Sisu",
+        "img": "https://image.tmdb.org/t/p/w500/t9VXZkgcxpIwfPUKAWOOONs0vHv.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/original/pBdQ4iorzRV2G38mdS6rzrmUfMA.jpg",
+        "puntuacion": "7.5",
+        "a\u00f1o": "2022",
+        "genero": "28",
+        "video": "15D5eRMlaZtt35G08pO6XjRi1XtlJsLrC&server=3",
+        "calidad": "HD",
+        "externo": "https://drive.google.com/file/d/15D5eRMlaZtt35G08pO6XjRi1XtlJsLrC/preview"
+    },
+    {
         "id": "916821",
         "title": "Conspiración en Hollywood",
         "img": "https://image.tmdb.org/t/p/w300/g9PcWL7xkqX0od1HEr0fgLsjTb0.jpg",
@@ -23,20 +85,20 @@
         "calidad": "HD",
         "externo": "https://drive.google.com/file/d/1a3bEuNMfgq09nCLhyBX0uETS6SX0V0tP/preview"
     },
-  {
-           "No": "669",
-           "id": "762441",
-           "title": "Un lugar tranquilo: D\u00eda uno",
-           "img": "https://image.tmdb.org/t/p/w500/jGOi939xU8BDRfAAhN6eiTSf3H8.jpg",
-           "backdrop": "https://image.tmdb.org/t/p/original/6XjMwQTvnICBz6TguiDKkDVHvgS.jpg",
-           "puntuacion": "6.9",
-           "a\u00f1o": "2024",
-           "genero": "27",
-           "video": "12FCZcocMWwseTqGX0jub9Sp5fCuoCI2d&server=3",
-           "calidad": "HD",
-           "externo": "https://drive.google.com/file/d/12FCZcocMWwseTqGX0jub9Sp5fCuoCI2d/preview"
-       },
-  {
+    {
+        "No": "669",
+        "id": "762441",
+        "title": "Un lugar tranquilo: D\u00eda uno",
+        "img": "https://image.tmdb.org/t/p/w500/jGOi939xU8BDRfAAhN6eiTSf3H8.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/original/6XjMwQTvnICBz6TguiDKkDVHvgS.jpg",
+        "puntuacion": "6.9",
+        "a\u00f1o": "2024",
+        "genero": "27",
+        "video": "12FCZcocMWwseTqGX0jub9Sp5fCuoCI2d&server=3",
+        "calidad": "HD",
+        "externo": "https://drive.google.com/file/d/12FCZcocMWwseTqGX0jub9Sp5fCuoCI2d/preview"
+    },
+    {
         "id": "491418",
         "title": "Familia al instante",
         "img": "https://image.tmdb.org/t/p/w300/ndgZRvynFdrYCjrny2vULiaCpI2.jpg",
@@ -47,8 +109,8 @@
         "video": "1nlTJosCs1TUlXR3Iri66nLbYC4306u3p&server=3",
         "calidad": "HD",
         "externo": "https://drive.google.com/file/d/1IgopyHq4m6v8Ya2hwQX-ePlD6HwuoZTd/preview"
-    }, 
-   {
+    },
+    {
         "No": "557",
         "id": "1007401",
         "title": "Mortal Kombat Leyendas: Fr\u00edo y Penumbra",
@@ -61,7 +123,7 @@
         "calidad": "HD",
         "externo": "https://drive.google.com/file/d/1a-MEcyJL5DGeVo4K236udO38eW0FjYl8/preview"
     },
-   {
+    {
         "id": "301337",
         "title": "Una vida a lo grande",
         "img": "https://image.tmdb.org/t/p/w300/hpOWb2nUHno4FBzpl6UWo0M1tFK.jpg",
@@ -73,7 +135,7 @@
         "calidad": "HD",
         "externo": "https://drive.google.com/file/d/1nlTJosCs1TUlXR3Iri66nLbYC4306u3p/preview"
     },
-   {
+    {
         "id": "9411",
         "title": "Fallen",
         "img": "https://image.tmdb.org/t/p/w300/a1XpImrbzKGJvoYJB8NeZJ4ZDhu.jpg",
@@ -135,7 +197,8 @@
         "calidad": "HD",
         "externo": "https://drive.google.com/file/d/1H1HCbtq6KCf0VLCo57ktoO4zQBJsCw4P/preview"
     },
-   {
+    
+    {
         "id": "10718",
         "title": "Torque: Rodando al límite",
         "img": "https://image.tmdb.org/t/p/w500/kjk5FQWR9NNYiMBHz99hcSoW7ct.jpg",
@@ -2462,19 +2525,7 @@
            "calidad": "",
            "externo": ""
        },
-       {
-           "No": "112",
-           "id": "1005772",
-           "title": "La aldea maldita",
-           "img": "https://image.tmdb.org/t/p/w500/xGZQXf2oDYvLQegwWPvvnx8Jcmw.jpg",
-           "backdrop": "https://image.tmdb.org/t/p/original/bUhFtAwSJu3JKWRlLTLrZdAiRkE.jpg",
-           "puntuacion": "6.8",
-           "a\u00f1o": "2022",
-           "genero": "27",
-           "video": "7174852119053",
-           "calidad": "",
-           "externo": ""
-       },
+       
        {
            "No": "113",
            "id": "777245",
@@ -4347,19 +4398,7 @@
            "calidad": "",
            "externo": ""
        },
-       {
-           "No": "264",
-           "id": "840326",
-           "title": "Sisu",
-           "img": "https://image.tmdb.org/t/p/w500/t9VXZkgcxpIwfPUKAWOOONs0vHv.jpg",
-           "backdrop": "https://image.tmdb.org/t/p/original/pBdQ4iorzRV2G38mdS6rzrmUfMA.jpg",
-           "puntuacion": "7.5",
-           "a\u00f1o": "2022",
-           "genero": "28",
-           "video": "5645370460771",
-           "calidad": "",
-           "externo": ""
-       },
+       
        {
            "No": "265",
            "id": "58626",
@@ -7988,19 +8027,7 @@
            "calidad": "HD",
            "externo": ""
        },
-       {
-           "No": "557",
-           "id": "1007401",
-           "title": "Mortal Kombat Leyendas: Fr\u00edo y Penumbra",
-           "img": "https://image.tmdb.org/t/p/w500/1hJufJphSKP7WaVEfyDYAtmfcU.jpg",
-           "backdrop": "https://image.tmdb.org/t/p/original/endVnEgUGjibpLaF0yjUX2CWhh4.jpg",
-           "puntuacion": "7.8",
-           "a\u00f1o": "2022",
-           "genero": "16",
-           "video": "7627630643800",
-           "calidad": "HD",
-           "externo": ""
-       },
+      
        {
            "No": "559",
            "id": "195590",
