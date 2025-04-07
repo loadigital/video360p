@@ -47,6 +47,7 @@ divHeader.innerHTML = `
                         <ul class="hidden" id="hidden">
         
                             <li class="next"><a target="_blank" href="https://loadigital.github.io/video360p/app/descargarApp.html" data="next"><span class="bi-android2"></span>Descargar App</a></li>
+                            <li class="next"><a target="_blank" href="https://wa.me/573151412445" data="next"><span class="bi-whatsapp"></span>Soporte</a></li>
                             <li class="next"><a target="_blank" href="https://t.me/vid360p" data="next"><span class="bi-telegram"></span>Grupo Telegram</a></li>
                             <li class="next"><a target="_blank" href="${lin}" data="next"><span class="bi-link-45deg"></span>Web Oficial</a></li>
                             <li class="next oculto-0"><a class="ocul-0 ocul" href="#" data="next"><span class="bi-stickies"></span>Copy Link</a></li>
@@ -64,6 +65,7 @@ divHeader.innerHTML = `
                     </li>
 
                     <li class="next class-mo"><a target="_blank" href="https://loadigital.github.io/video360p/app/descargarApp.html" data="next"><span class="bi-android2"></span>Descargar App</a></li>
+                    <li class="next class-mo"><a target="_blank" href="https://wa.me/573151412445" data="next"><span class="bi-whatsapp"></span>Soporte</a></li>
                     <li class="next class-mo"><a target="_blank" href="https://t.me/vid360p" data="next"><span class="bi-telegram"></span>Grupo Telegram</a></li>
                     <li class="next class-mo"><a target="_blank" href="${lin}" data="next"><span class="bi-link-45deg"></span>Web Oficial</a></li>
                     <li class="next oculto-1 class-mo"><a class="ocul-1 ocul" href="#" data="next"><span class="bi-stickies"></span>Copy Link</a></li>
