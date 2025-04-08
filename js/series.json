@@ -1,5 +1,27 @@
 [
     {
+        "id": "225399",
+        "title": "El gatopardo",
+        "img": "https://image.tmdb.org/t/p/w500/wqErdSqx21mVZVIqUShXMsTAECM.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/original/hfbHVJciGr3ZYKhRltWk03pCcjJ.jpg",
+        "puntuacion": "7.8",
+        "año": "2025",
+        "genero": "18",
+        "video": "1yD6H43owYeDLLy-zrTcVD4YDZP0YZSyh&temp=1&cap=1&direct=3",
+        "poster": "S064"
+    },
+    {
+        "id": "249042",
+        "title": "Adolescencia",
+        "img": "https://image.tmdb.org/t/p/w500/cZdsqlIqhRbYNo8ttxb2ThC09Wa.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/original/pCT3WLNrBBQeY7DRMw2CD1Pii05.jpg",
+        "puntuacion": "7.9",
+        "año": "2025",
+        "genero": "18",
+        "video": "1Z8UZyT7aQDy3lkXc-EMxVG148YrCnttK&temp=1&cap=1&direct=3",
+        "poster": "S063"
+    },
+    {
         "No": "13",
         "id": "95403",
         "title": "The Peripheral",
