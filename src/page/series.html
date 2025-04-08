@@ -353,7 +353,18 @@ function pintar(data){
   
     }
     
-    
+    function copy() {
+        var input = document.createElement("input");
+        input.setAttribute("value", 'https://mo-video360p.blogspot.com/2025/02/series.html?e=' + data.id);
+        document.body.appendChild(input);
+        input.select();
+        document.execCommand("copy");
+        document.body.removeChild(input);
+}
+
+document.querySelector(".ocul").addEventListener("click", ()=>{
+    copy();
+}) 
 }
 
 
@@ -690,18 +701,7 @@ document.querySelector(".capa-1").addEventListener("click", ()=>{
     var id = setInterval('cronometro()', 1000);
     });
 
-function copy() {
-        var input = document.createElement("input");
-        input.setAttribute("value", 'https://mo-video360p.blogspot.com/2025/02/series.html?e=' + idB);
-        document.body.appendChild(input);
-        input.select();
-        document.execCommand("copy");
-        document.body.removeChild(input);
-}
 
-document.querySelector(".ocul").addEventListener("click", ()=>{
-    copy();
-})
 </script>
 
 <script type="module" src="../../js/main.js"></script>
