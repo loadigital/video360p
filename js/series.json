@@ -1,5 +1,27 @@
 [
     {
+        "id": "233686",
+        "title": "Karma",
+        "img": "https://image.tmdb.org/t/p/w500/2G99FfWYCAdsmAIZO8zGFjcDidY.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/original/66X23qG4RPk7XPDQCFFHHCage3M.jpg",
+        "puntuacion": "7.8",
+        "año": "2025",
+        "genero": "80",
+        "video": "1Avvm86AEq2j6jf89Uoq1kyo-OvakNO3d&temp=1&cap=1&direct=3",
+        "poster": "S066"
+    },
+    {
+        "id": "231681",
+        "title": "Las viudas de los jueves",
+        "img": "https://image.tmdb.org/t/p/w500/z8siNqkZO3le59CRVbdCh9aQOTF.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/original/AqNwbPA4loNEP8O6PP8IH12k8yZ.jpg",
+        "puntuacion": "6.5",
+        "año": "2023",
+        "genero": "18",
+        "video": "13qQsNXsalGlSwomhwzndrj_OKCMrvrcg&temp=1&cap=1&direct=3",
+        "poster": "S065"
+    },
+    {
         "id": "225399",
         "title": "El gatopardo",
         "img": "https://image.tmdb.org/t/p/w500/wqErdSqx21mVZVIqUShXMsTAECM.jpg",
