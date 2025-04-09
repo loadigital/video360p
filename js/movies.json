@@ -1,5 +1,53 @@
 [
     {
+        "id": "943134",
+        "title": "El reino animal",
+        "img": "https://image.tmdb.org/t/p/w300/oWh4BiNEmg7d91ZOXPzdkRo0KSO.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/original/H41DJiw7Q8xn6bWC75eyaavp9L.jpg",
+        "puntuacion": "7.0",
+        "año": "2023",
+        "genero": "12",
+        "video": "17IOKT411NM-9sazoz7hkkt6dzGjh8yb2&server=3",
+        "calidad": "HD",
+        "externo": "https://drive.google.com/file/d/17IOKT411NM-9sazoz7hkkt6dzGjh8yb2/preview"
+    },
+    {
+        "id": "1094274",
+        "title": "Y2K",
+        "img": "https://image.tmdb.org/t/p/w300/qndubIQalyxBJI5EBNZKGXEX74q.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/original/aoqJHtjzpbgoujhDO9R88gL3Kmf.jpg",
+        "puntuacion": "5.2",
+        "año": "2024",
+        "genero": "35",
+        "video": "1NMxT7ubYQOwQoKNU5vcCfPZd2snFggM-&server=3",
+        "calidad": "HD",
+        "externo": "https://drive.google.com/file/d/1NMxT7ubYQOwQoKNU5vcCfPZd2snFggM-/preview"
+    },
+    {
+        "id": "1304594",
+        "title": "Una pequeña confusión",
+        "img": "https://image.tmdb.org/t/p/w300/r01XiXILuu0uymj8yvpRyiD9hB0.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/original/8U1xsLUtWSN8WlH0xzwYGZxHMUi.jpg",
+        "puntuacion": "7.5",
+        "año": "2024",
+        "genero": "35",
+        "video": "1y5C1pK7eByCrZOpxz04O05taUb0m37VQ&server=3",
+        "calidad": "HD",
+        "externo": "https://drive.google.com/file/d/1y5C1pK7eByCrZOpxz04O05taUb0m37VQ/preview"
+    },
+    {
+        "id": "1252309",
+        "title": "Pídeme lo que quieras",
+        "img": "https://image.tmdb.org/t/p/w300/76qnVxU2rPdVvipBN3DPQH6fVYB.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/original/qiVrapzgrDO7c6yQTSvn0dhwsn8.jpg",
+        "puntuacion": "5.7",
+        "año": "2024",
+        "genero": "10749",
+        "video": "1JPGK9NV-02gcYfFm5ycXYjGPIT6BpUes&server=3",
+        "calidad": "HD",
+        "externo": "https://drive.google.com/file/d/1JPGK9NV-02gcYfFm5ycXYjGPIT6BpUes/preview"
+    },
+    {
         "id": "6312",
         "title": "El pacto de los lobos",
         "img": "https://image.tmdb.org/t/p/w300/6PRA3eIFsOBv1RZIHBMG58TKqHG.jpg",
