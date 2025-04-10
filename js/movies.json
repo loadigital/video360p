@@ -1,5 +1,29 @@
 [
     {
+        "id": "1362608",
+        "title": "En un confín del mundo",
+        "img": "https://image.tmdb.org/t/p/w300/dI5eWAvq68mddW6JkRodywrOBF.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/original/2jllAxMf7dTMt1fw9A1slsaj6Fv.jpg",
+        "puntuacion": "6.0",
+        "año": "2025",
+        "genero": "35",
+        "video": "9197583010369",
+        "calidad": "HD",
+        "externo": "avTTEE5TRjlFsOz"
+    },
+    {
+        "id": "549509",
+        "title": "El Brutalista",
+        "img": "https://image.tmdb.org/t/p/w300/zayAddI9yPOTi34x9M21ezei9JV.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/original/hmZnqijPaaACjenDkrbWcCmcADI.jpg",
+        "puntuacion": "7.1",
+        "año": "2024",
+        "genero": "18",
+        "video": "9198406732353",
+        "calidad": "HD",
+        "externo": "yQMW7cxSPyqRsVU"
+    },
+    {
         "id": "943134",
         "title": "El reino animal",
         "img": "https://image.tmdb.org/t/p/w300/oWh4BiNEmg7d91ZOXPzdkRo0KSO.jpg",
