@@ -127,14 +127,7 @@
         "iptv": "https://video2.lhdserver.es/asiritv/live.m3u8"
      
     },
-    {
-        
-        "title": "Caracol Noticias",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Caracol_Televisi%C3%B3n_logo.svg/512px-Caracol_Televisi%C3%B3n_logo.svg.png",
-        "iptv": "https://mdstrm.com/live-stream-playlist/632391734be92a791e2750e6.m3u8"
-        
-        
-    },
+    
     {
         
         "title": "Kanal D Drama",
@@ -144,10 +137,11 @@
     },
     {
         
-        "title": "Aurora Media Films",
-        "logo": "https://tvguatemala.net/wp-content/uploads/2022/10/Aurora-Media-Films-Guatemala.webp",
-        "iptv": "https://cdn.streamhispanatv.net:3417/live/auroramflive.m3u8"
-                
+        "title": "Caracol Noticias",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Caracol_Televisi%C3%B3n_logo.svg/512px-Caracol_Televisi%C3%B3n_logo.svg.png",
+        "iptv": "https://mdstrm.com/live-stream-playlist/632391734be92a791e2750e6.m3u8"
+        
+        
     }
     
     
