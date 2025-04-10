@@ -1,4 +1,15 @@
 [
+
+     {
+        "title": "Todo Novelas",
+        "logo": "https://www.cxtv.com.br/img/Tvs/Logo/webp-m/2011611b497db73fa9dfc7954871225f.webp",
+        "iptv": "https://4ff77b38.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/Q2FuZWxhVFZfVG9kb0RyYW1hX0hMUw/playlist.m3u8"
+    },
+    {
+        "title": "Todo Cine",
+        "logo": "https://www.cxtv.com.br/img/Tvs/Logo/webp-m/fb8c01f83f28e273af1edd823437795d.webp",
+        "iptv": "https://stream.ads.ottera.tv/playlist.m3u8?network_id=4565"
+    }, 
      {
         "title": "Canela TV",
         "logo": "https://www.cxtv.com.br/img/Tvs/Logo/webp-m/35868a89197f0e73eb67095c92e76289.webp",
