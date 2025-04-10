@@ -1,5 +1,10 @@
 [
      {
+        "title": "Canela TV",
+        "logo": "https://www.cxtv.com.br/img/Tvs/Logo/webp-m/35868a89197f0e73eb67095c92e76289.webp",
+        "iptv": "https://amg00658-amg00658c23-canelatv-international-5053.playouts.now.amagi.tv/playlist/amg00658-canelamediafast-canelatvltapp-canelatvinternational/playlist.m3u8"
+    },
+     {
         "title": "Toonz Kids",
         "logo": "https://www.cxtv.com.br/img/Tvs/Logo/webp-l/5f58965018411c0ef81df7c6b596ad54.webp",
         "iptv": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/toonzkids-spanish/master.m3u8"
