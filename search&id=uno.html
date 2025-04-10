@@ -14,6 +14,9 @@
     <script src="https://loadigital.github.io/movies.biloa/js/jquery.js"></script>
    
     <script src="js/api.js"></script>
+    <style>
+        .hidden {display: none;}
+    </style>
     
 </head>
 <body>
@@ -42,6 +45,7 @@
             <div class="cont-buscador">
                 <div class="buscador">
                     <input type="search" placeholder="Buscar..." id="inp">
+                    <p class="no-results hidden flexrow-c col-12">No hay resultados para tu busqueda...</p>
                 </div>
                 <div class="cont-cardss" id="cont-cardss"></div>
             </div>
@@ -73,15 +77,20 @@ document.addEventListener('DOMContentLoaded', () => {
            console.log(error);
        }
     }
+
+    
     const pintarPagePeliculas = data => {
 
     data.forEach(element => {
-    
+
+       
         const div_cont_cards = document.createElement("div");
         div_cont_cards.className = "cont-cards"
         div_cont_cards.innerHTML += `
+        
         <div class="co-cards">
-        <div class="cards">
+            
+        <div class="cards" style="display:none;">
          <div class="title-cards"><a  href="${linkMovies + element.id + '&v_id=' + element.video + '&cal=' + element.calidad}">
             <img src="${element.img}" alt=""> 
             <p> ${element.title} <br><i class="bi-star-fill"></i><i class="bi-star-half"></i><i class="bi-star"></i> ${element.puntuacion}<br>${element.año}</p>
@@ -96,16 +105,51 @@ document.addEventListener('DOMContentLoaded', () => {
         cont_cards.appendChild(fragment);
     });
     };
-
+/*
     $(document).ready(function(){
     $("#inp").on("keyup", function() {
+        $(".cards").show();
     var value = $(this).val().toLowerCase();
     $(".title-cards").filter(function() {
     $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
             });
         });
     });//buscador
-   
+
+
+*/
+
+(function($) {
+  $(document).ready(function() {
+    const noResultsRef = $('.no-results');
+    
+    $("#inp").keyup(function() {
+        $(".cards").show();
+      if (!noResultsRef.hasClass('hidden')) {
+        noResultsRef.addClass('hidden');
+      }
+      
+      var filter = $(this).val();
+      let noResults = true;
+    
+      $(".title-cards").each(function() {
+
+        
+        if ($(this).text().search(new RegExp(filter, "i")) < 0) {
+          $(this).addClass('hidden');
+        } else {
+          noResults = false;
+          $(this).removeClass('hidden');
+        }
+      });
+
+      if (filter && noResults) {
+        noResultsRef.removeClass('hidden');
+      }
+    });
+  })
+})(jQuery)
+    
 </script>
 <div style="display: none;" class="col-12" id="footer"></div>
 <script type="module" src="js/main.js"></script>
