@@ -127,37 +127,28 @@
     const tendencias = document.getElementById("co-cardss-tendencias");
     const estrenos = document.getElementById("co-cardss-estrenos");
     const ultimasSeries = document.getElementById("co-cardss-series");
-/*
+
     document.addEventListener('DOMContentLoaded', () => {
         fetchData();
     });
     
     const fetchData = async () => {
        try{
-           const res = await fetch('https://biloa.site/enviar.php');
+           const res = await fetch('https://video360p.site/js/movies.json');
            const data = await res.json();
            pintarIndex(data);
        }catch (error) {
            console.log(error);
        }
     }
-    */
-
-    const opciones = {
-     method :'POST'
-    };
-    
-    fetch('https://biloa.site/enviar.php',opciones)
-    .then(respuesta => respuesta.json())
-    .then(resultado =>{
-   // const pintarIndex = data => {
+    const pintarIndex = data => {
         function pintar(data){
             return [...data].sort(() => (Math.random() > 0.5 ? 1 : -1)).slice(0, 8)
           }
           
-        //const newArrayNew = data.slice(0, 8);
+        const newArrayNew = data.slice(0, 8);
 	 //const newArrayNew = pintar(data);
-     resultado.forEach(element => {
+        newArrayNew.forEach(element => {
 
             const  API_URL  =  BASE_URL  +  '/movie/' + element.id + '?' + API_KEY + '&language=es-ES';//CODIGO TMBD
             
@@ -260,7 +251,7 @@
     };
     };
     });
-    });//end peiculas
+    };//end peiculas
 
     document.addEventListener('DOMContentLoaded', () => {
         fetchSeries();
