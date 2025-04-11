@@ -1,5 +1,38 @@
 [
     {
+        "id": "247784",
+        "title": "Pulso",
+        "img": "https://image.tmdb.org/t/p/w500/ci8f3EoO8IudftujTMPAKjGTqoe.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/original/52RLQclQ6XHiu6QiSKAwb58TmCs.jpg",
+        "puntuacion": "7.7",
+        "año": "2025",
+        "genero": "18",
+        "video": "1u4Utm94JLsFmAiW12z-t6-WMn11X29pi&temp=1&cap=1&direct=3",
+        "poster": "S069"
+    },
+    {
+        "id": "232342",
+        "title": "Ciudad tóxica",
+        "img": "https://image.tmdb.org/t/p/w500/fCHmcC6MC7hXy7OO2KRjmJxskAg.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/original/pp4jnkOneeb4FFcni9VUCyo18sZ.jpg",
+        "puntuacion": "7.0",
+        "año": "2025",
+        "genero": "18",
+        "video": "1LBNgKcSqKk3vpTz3UPmY0ntcAHrUPijv&temp=1&cap=1&direct=3",
+        "poster": "S068"
+    },
+    {
+        "id": "44217",
+        "title": "Vikingos",
+        "img": "https://image.tmdb.org/t/p/w500/m8iQ4ZObxGbSu0cs8xTOVTeZ9QX.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/original/lHe8iwM4Cdm6RSEiara4PN8ZcBd.jpg",
+        "puntuacion": "8.1",
+        "año": "2013",
+        "genero": "10759",
+        "video": "1Ltk0TWK57Xxteth5XTVH94V-H4sR3N0a&temp=1&cap=1&direct=3",
+        "poster": "S067"
+    },
+    {
         "id": "233686",
         "title": "Karma",
         "img": "https://image.tmdb.org/t/p/w500/2G99FfWYCAdsmAIZO8zGFjcDidY.jpg",
