@@ -1,4 +1,64 @@
 [
+    {
+        "id": "S069",
+        "temporadas":"1",
+        "temporada1":[
+                        "1u4Utm94JLsFmAiW12z-t6-WMn11X29pi&temp=1&cap=1&direct=3",
+                        "1hB1hPqMO0UGi0gDFYNWZn5vTn6oyR5Lm&temp=1&cap=2&direct=3",
+                        "11dZvw6dEjGavgusGz8MQYC0VAgrqIwCh&temp=1&cap=3&direct=3",
+                        "1Mnskz7Z-cPCnicxpRSWxhBqoyCpCB-NP&temp=1&cap=4&direct=3",
+                        "1r3JoxK3n8sgBAUxGmymyD2lNHP0WChQK&temp=1&cap=5&direct=3",
+                        "11JKW7qDhLNghlQQDfoy60EX5wrCcUBi2&temp=1&cap=6&direct=3",
+                        "1M-GYMUr2RmIF-scEnv9wx2vSMD_7teUk&temp=1&cap=7&direct=3",
+                        "185yMCAPfEjbHa0CL6IHJILlUuF7yTTjc&temp=1&cap=8&direct=3",
+                        "1IffxNfqGcDgvuG1mm0a93atwg304dX5l&temp=1&cap=9&direct=3",
+                        "1DCZ3i8v-BDezgG5wYPQEoyqDMqqBDRTe&temp=1&cap=10&direct=3"
+                                                                
+                     ]
+                         
+    },
+    {
+        "id": "S068",
+        "temporadas":"1",
+        "temporada1":[
+                        "1LBNgKcSqKk3vpTz3UPmY0ntcAHrUPijv&temp=1&cap=1&direct=3",
+                        "1rfMYCrrQn67M9lq9YU2K_Fr24JUJmJeu&temp=1&cap=2&direct=3",
+                        "1fA025OHx4f-D4nlTYE0QJIpyplnrjH_2&temp=1&cap=3&direct=3",
+                        "1CaAK5cl9roRJgLjzAUaYp0SxIZ4xpqLx&temp=1&cap=4&direct=3"
+                                                                
+                     ]
+                         
+    },
+    {
+        "id": "S067",
+        "temporadas":"2",
+        "temporada1":[
+                        "1Ltk0TWK57Xxteth5XTVH94V-H4sR3N0a&temp=1&cap=1&direct=3",
+                        "1djDbnpTrrcLMR6raHB9QuGIenbUZVEMk&temp=1&cap=2&direct=3",
+                        "1JtEtlNIRsQ0dxZTu9yNq5Y7xPgQOsHrU&temp=1&cap=3&direct=3",
+                        "11ejTZ7sUEOYR1mrmpV-LoHJzJ2g7yuKQ&temp=1&cap=4&direct=3",
+                        "1nECWEoS5944z2lCfW9VCJuVb71h-VM7k&temp=1&cap=5&direct=3",
+                        "1-PAg5sdJAFEpWPrVU2VQrvJDah8t-2hV&temp=1&cap=6&direct=3",
+                        "1z4BMTcFjC8nYKJRC-Xz9bz_BXRfj5vun&temp=1&cap=7&direct=3",
+                        "12nxn07DCajlLQDHRPgEmtgfCVgqNQIvp&temp=1&cap=8&direct=3",
+                        "1O9dDT6iUFXkjOu0I_gcQcjUD71z2YItU&temp=1&cap=9&direct=3"
+                                                                
+                     ],
+         "temporada2":[
+                        "1RkB-vrDyOfX_t2IzgbWaeJENys80kbPG&temp=2&cap=1&direct=3",
+                        "1UTaD_aGdg0gwRP5gnnTVnXGRSx56OcE7&temp=2&cap=2&direct=3",
+                        "1D5s5vtPiLixvUBcZ4q5cqm5X-2Gs4Xeq&temp=2&cap=3&direct=3",
+                        "1rPglyyUas_mrm32JZimFOvsLuN2GDZ4W&temp=2&cap=4&direct=3",
+                        "1aDNS6DcKBWQWmEJVgqsxpL6TtCVXu3bM&temp=2&cap=5&direct=3",
+                        "1iFM4jqqqe5_UytVLOPl9UOFpFh3osZTh&temp=2&cap=6&direct=3",
+                        "1AdAdeFlTZ73qj0lG4h9YtX-b8tCXVp1i&temp=2&cap=7&direct=3",
+                        "1pNdOpu-M9w3z_x5_EZKnqRJbnJXBHICI&temp=2&cap=8&direct=3",
+                        "1iTVTU279SPzOxe_g8YMtX19tmUzAiY1H&temp=2&cap=9&direct=3",
+                        "16wAMOpymuEBHgwcd93KLDpapkwPI9HrU&temp=2&cap=10&direct=3"
+                                                                
+                     ]
+                         
+    },
      {
         "id": "S066",
         "temporadas":"1",
