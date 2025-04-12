@@ -1,6 +1,7 @@
 RewriteBase /
 RewriteEngine on
 
+Header add Content-Security-Policy "upgrade-insecure-requests"
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}.html -f
 RewriteRule ^(.*)$ $1.html
