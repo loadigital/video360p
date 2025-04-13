@@ -75,22 +75,15 @@
     const ultimasSeries = document.getElementById("co-cardss-series");
     
 
-    document.addEventListener('DOMContentLoaded', () => {
-        fetchData();
-    });
+    const opciones = {
+     method :'POST'
+    };
     
-    const fetchData = async () => {
-       try{
-           const res = await fetch('https://video360p.site/js/movies.json');
-           const data = await res.json();
-           pintarPagePeliculas(data);
-       }catch (error) {
-           console.log(error);
-       }
-    }
-    const pintarPagePeliculas = data => {
+    fetch('https://biloa.site/db/conex-movies.php',opciones)
+    .then(respuesta => respuesta.json())
+    .then(resultado =>{
         
-        data.forEach(element => {
+        resultado.reverse().forEach(element => {
     
        
         const card = document.createElement("div");
@@ -112,7 +105,7 @@
         
     })
           
-    data.forEach(element => {
+    resultado.reverse().forEach(element => {
         if(element.puntuacion >= "7.9"){
     
     const cardTendencias = document.createElement("div");
@@ -134,8 +127,8 @@
     }
     })
     
-    data.forEach(element => {
-        if(element.año === "2025"){
+    resultado.reverse().forEach(element => {
+        if(element.ano === "2025"){
     
     const cardEstrenos = document.createElement("div");
     
@@ -155,7 +148,7 @@
     
     }
     })
-    }
+    })
 </script>
 
 <script type="module" src="js/main.js"></script>
