@@ -64,24 +64,16 @@ const inp = document.getElementById("inp");
 //const boton = document.getElementById("boton");
 const cont_cards = document.getElementById("cont-cardss")
 const fragment = document.createDocumentFragment();
-document.addEventListener('DOMContentLoaded', () => {
-        fetchData();
-    });
-    
-    const fetchData = async () => {
-       try{
-           const res = await fetch('js/movies.json');
-           const data = await res.json();
-           pintarPagePeliculas(data);
-       }catch (error) {
-           console.log(error);
-       }
-    }
 
+const opciones = {
+     method :'POST'
+    };
     
-    const pintarPagePeliculas = data => {
+    fetch('https://biloa.site/db/conex-movies.php',opciones)
+    .then(respuesta => respuesta.json())
+    .then(resultado =>{
 
-    data.forEach(element => {
+        resultado.reverse().forEach(element => {
 
        
         const div_cont_cards = document.createElement("div");
@@ -104,7 +96,7 @@ document.addEventListener('DOMContentLoaded', () => {
         fragment.appendChild(clone);
         cont_cards.appendChild(fragment);
     });
-    };
+    });
 /*
     $(document).ready(function(){
     $("#inp").on("keyup", function() {
