@@ -128,27 +128,23 @@
     const estrenos = document.getElementById("co-cardss-estrenos");
     const ultimasSeries = document.getElementById("co-cardss-series");
 
-    document.addEventListener('DOMContentLoaded', () => {
-        fetchData();
-    });
     
-    const fetchData = async () => {
-       try{
-           const res = await fetch('https://video360p.site/js/movies.json');
-           const data = await res.json();
-           pintarIndex(data);
-       }catch (error) {
-           console.log(error);
-       }
-    }
-    const pintarIndex = data => {
+
+    const opciones = {
+     method :'POST'
+    };
+    
+    fetch('https://biloa.site/db/conex-movies.php',opciones)
+    .then(respuesta => respuesta.json())
+    .then(resultado =>{
+   
         function pintar(data){
             return [...data].sort(() => (Math.random() > 0.5 ? 1 : -1)).slice(0, 8)
           }
           
-        const newArrayNew = data.slice(0, 8);
+    const newArrayNew = resultado.reverse().slice(0, 8);
 	 //const newArrayNew = pintar(data);
-        newArrayNew.forEach(element => {
+     newArrayNew.forEach(element => {
 
             const  API_URL  =  BASE_URL  +  '/movie/' + element.id + '?' + API_KEY + '&language=es-ES';//CODIGO TMBD
             
@@ -182,7 +178,7 @@
      
     })
  
-    data.forEach(element => {
+    resultado.forEach(element => {
     if(element.puntuacion >= "7.9"){
     
             const  API_URL_P  =  BASE_URL  +  '/movie/' + element.id + '?' + API_KEY + '&language=es-ES';//CODIGO TMBD
@@ -218,8 +214,8 @@
     })
     
     
-    data.forEach(element => {
-        if(element.año === "2025"){
+    resultado.forEach(element => {
+        if(element.ano === "2025"){
     
             const  API_URL_A  =  BASE_URL  +  '/movie/' + element.id + '?' + API_KEY + '&language=es-ES';//CODIGO TMBD
             
@@ -251,25 +247,18 @@
     };
     };
     });
-    };//end peiculas
+    });//end peiculas
 
-    document.addEventListener('DOMContentLoaded', () => {
-        fetchSeries();
-    });
+    const op_series = {
+     method :'POST'
+    };
     
-    const fetchSeries = async () => {
-       try{
-           const res = await fetch('https://video360p.site/js/series.json');
-           const data = await res.json();
-           pintarSeries(data);
-       }catch (error) {
-           console.log(error);
-       }
-    }
+    fetch('https://biloa.site/db/conex-series.php',op_series)
+    .then(respuesta => respuesta.json())
+    .then(resultado =>{
 
-    
-    const pintarSeries = data => {     
-    const newJson = data.slice(0, 8);
+   
+    const newJson = resultado.reverse().slice(0, 8);
     newJson.forEach(element => {
         const cardSeriesUltimas = document.createElement("div");
     
@@ -287,7 +276,7 @@
     `
     ultimasSeries.appendChild(cardSeriesUltimas)
     })
-    }
+    })
 </script>
     
 <script type="module" src="js/main.js"></script>
