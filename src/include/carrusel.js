@@ -1,27 +1,19 @@
 const carrusel = document.querySelector("#include-carrusel")
 
 
-document.addEventListener('DOMContentLoaded', () => {
-    fetchDatac();
-});
-
-const fetchDatac = async () => {
-   try{
-       const res = await fetch('https://video360p.site/js/movies.json');
-       const data = await res.json();
-       pintarCarrusel(data);
-   }catch (error) {
-       console.log(error);
-   }
-}
-const pintarCarrusel = data => {
-
-    function carrusel(data){
-        return [...data].sort(() => (Math.random() > 0.5 ? 1 : -1)).slice(0, 1)
-      }
-
+const opc_carrusel = {
+    method :'POST'
+   };
    
-      carrusel(data).forEach(element => {
+   fetch('https://biloa.site/db/conex-movies.php',opc_carrusel)
+   .then(respuesta => respuesta.json())
+   .then(resultado =>{
+
+
+    function carrusel(resultado){
+        return [...resultado].sort(() => (Math.random() > 0.5 ? 1 : -1)).slice(0, 1)
+    }
+      carrusel(resultado).forEach(element => {
 
         const  API_URL_C  =  BASE_URL  +  '/movie/' + element.id + '?' + API_KEY + '&language=es-ES';//CODIGO TMBD
         
@@ -81,4 +73,4 @@ _pgenres.innerHTML = `${genres.name + ","}`
 });
 };
 });
-}
+})
