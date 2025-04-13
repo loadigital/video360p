@@ -354,27 +354,20 @@ function pintar(data){
     }
     
     
+    
 }
 
 
-document.addEventListener('DOMContentLoaded', () => {
-        fetchData();
-    });
+const op_series = {
+     method :'POST'
+    };
     
-    const fetchData = async () => {
-       try{
-           const res = await fetch('../../js/series.json');
-           const data = await res.json();
-           pintarPagePeliculas(data);
-       }catch (error) {
-           console.log(error);
-       }
-    }
-    
+    fetch('https://biloa.site/db/conex-series.php',op_series)
+    .then(respuesta => respuesta.json())
+    .then(resultado =>{
 
-    const pintarPagePeliculas = data => {
     const similares = document.getElementById("cards-similares");
-    const newArrayNew = data.slice(0, 4);
+    const newArrayNew = resultado.reverse().slice(0, 4);
     newArrayNew.forEach(element => {
 
     const card = document.createElement("div");
@@ -392,10 +385,11 @@ document.addEventListener('DOMContentLoaded', () => {
         </div> 
         `
         similares.appendChild(card)
-
+        
     
 })
-data.forEach(copy =>{
+
+resultado.forEach(copy =>{
 
     if (copy.id == idB) {
         function copy() {
@@ -412,7 +406,7 @@ document.querySelector(".ocul").addEventListener("click", ()=>{
 })
 }
 })
-}
+})
 
 
 let numerador = [0, 0, 0, 0, 0];
@@ -708,11 +702,11 @@ document.querySelector(".capa-1").addEventListener("click", ()=>{
     });
 
 
+   
 </script>
 
 <script type="module" src="../../js/main.js"></script>
 <script type="module" src="../../js/libreria-1-0-1.js"></script>
-
 
 <div id="scalar"></div>
 <script type='text/javascript' src='//casketembody.com/20/bc/68/20bc682e27aaf56cf3fdada8207f0a2b.js'></script>
