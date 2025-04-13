@@ -280,24 +280,17 @@ function pintar(data){
 }
 
 
-document.addEventListener('DOMContentLoaded', () => {
-        fetchData();
-    });
+const opciones = {
+     method :'POST'
+    };
     
-    const fetchData = async () => {
-       try{
-           const res = await fetch('../../js/movies.json');
-           const data = await res.json();
-           pintarPagePeliculas(data);
-       }catch (error) {
-           console.log(error);
-       }
-    }
-    const pintarPagePeliculas = data => {
+    fetch('https://biloa.site/db/conex-movies.php',opciones)
+    .then(respuesta => respuesta.json())
+    .then(resultado =>{
     
     
 const similares = document.getElementById("cards-similares");
-const newArrayNew =  data.slice(0, 4);
+const newArrayNew =  resultado.reverse().slice(0, 4);
     newArrayNew.forEach(element => {
 
     const  API_URL_R  =  BASE_URL  +  '/movie/' + element.id + '?' + API_KEY + '&language=es-ES';//CODIGO TMBD
@@ -333,7 +326,7 @@ function pintar(data){
     
 }    
 }) 
-data.forEach(element =>{
+resultado.forEach(element =>{
 
 if (element.id == id) {
 
@@ -370,7 +363,7 @@ document.querySelector(".ocul").addEventListener("click", ()=>{
 }
 })
 
-}
+})
 //modal
 var control = 20;
 
