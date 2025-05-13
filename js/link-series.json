@@ -1,5 +1,19 @@
 [
    {
+        "id": "S073",
+        "temporadas":"1",
+        "temporada1":[
+                        "19QpxqIjpTyO1fpyZXiK_EAnZcr3YaYWp&temp=1&cap=1&direct=3",
+                        "10HhZWCrCnVHJq3l6X64yz_QqR20-LcCW&temp=1&cap=2&direct=3",
+                        "18G76xFO5e9x3R05t0j_ApvzTzWVGlRoK&temp=1&cap=3&direct=3",
+                        "1g19EvkAS6hqUt9AbmsYM68qbXj_cVLUW&temp=1&cap=4&direct=3",
+                        "1XQFKCYjeSswpAWwuknYzPOKjHYAe0aI5&temp=1&cap=5&direct=3",
+                        "19rO4eKiAKxhDpQb3g5X0jIEDrBArxQ_K&temp=1&cap=6&direct=3"
+                                                                
+                     ]
+                         
+    }, 
+   {
         "id": "S072",
         "temporadas":"1",
         "temporada1":[
