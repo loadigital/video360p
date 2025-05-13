@@ -1,5 +1,17 @@
 [
    {
+        "id": "S074",
+        "temporadas":"1",
+        "temporada1":[
+                        "1St0x_2r4HtNNFFSPLOf3nUn8cD9JXXvA&temp=1&cap=1&direct=3",
+                        "1xEsmiBGVgVISJeLz6tPTneXVzDY3llEx&temp=1&cap=2&direct=3",
+                        "1EOQobGFWCDWdQ8xGJTiaMISUDi1ZwRfx&temp=1&cap=3&direct=3",
+                        "1Y6xD9O2CcEKLDd9E7IDZyHusRWJYNCAu&temp=1&cap=4&direct=3"
+                                                                
+                     ]
+                         
+    }, 
+   {
         "id": "S073",
         "temporadas":"1",
         "temporada1":[
